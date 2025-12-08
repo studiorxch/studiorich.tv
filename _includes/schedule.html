@@ -1,0 +1,131 @@
+<div class="stream-schedule">
+  <h2>
+    <img
+      src="/assets/ui/headphones.svg"
+      alt="Headphones icon"
+      class="icon-sm"
+    />
+    Weekly Stream Schedule
+  </h2>
+
+  <table class="schedule-table">
+    <thead>
+      <tr>
+        <th>Day</th>
+        <th>Time (ET)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td colspan="2">Loading schedule...</td>
+      </tr>
+    </tbody>
+  </table>
+  <p
+    style="
+      text-align: center;
+      margin-top: 1.5rem;
+      font-size: 0.95rem;
+      color: #bbb;
+    "
+  >
+    All times in Eastern Time (ET) · Subject to vibe and surprise drops
+    <img src="/assets/ui/moon.svg" alt="Moon icon" class="icon-sm" />
+  </p>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", async function () {
+    const clientId = "1jpexght2145jhryp52b8syq2jduvq";
+    const accessToken = "b54mq9my1mv3fato7bacc3h8oqfcea";
+    const broadcasterId = "652015218";
+    const scheduleTableBody = document.querySelector(".schedule-table tbody");
+
+    function toEasternTime(dateString) {
+      const utcDate = new Date(dateString);
+      return new Date(
+        utcDate.toLocaleString("en-US", { timeZone: "America/New_York" })
+      );
+    }
+
+    function formatTime(date) {
+      const hours24 = date.getHours();
+      const hours = hours24 % 12 || 12;
+      const minutes = date.getMinutes().toString().padStart(2, "0");
+      const ampm = hours24 >= 12 ? "PM" : "AM";
+      return `${hours}:${minutes} ${ampm}`;
+    }
+
+    function formatDay(date) {
+      return date.toLocaleDateString("en-US", { weekday: "long" });
+    }
+
+    try {
+      const response = await fetch(
+        `https://api.twitch.tv/helix/schedule?broadcaster_id=${broadcasterId}&first=20`,
+        {
+          headers: {
+            "Client-ID": clientId,
+            Authorization: `Bearer ${accessToken}`,
+          },
+        }
+      );
+
+      const data = await response.json();
+      const segments = data.data?.segments || [];
+
+      scheduleTableBody.innerHTML = "";
+
+      if (segments.length === 0) {
+        scheduleTableBody.innerHTML =
+          "<tr><td colspan='2'>No upcoming streams.</td></tr>";
+        return;
+      }
+
+      const now = new Date();
+      const nowET = new Date(
+        now.toLocaleString("en-US", { timeZone: "America/New_York" })
+      );
+      const oneWeekFromNow = new Date(nowET);
+      oneWeekFromNow.setDate(nowET.getDate() + 7);
+
+      const weekSegments = segments.filter((segment) => {
+        const streamDate = toEasternTime(segment.start_time);
+        return streamDate >= nowET && streamDate <= oneWeekFromNow;
+      });
+
+      if (weekSegments.length === 0) {
+        scheduleTableBody.innerHTML =
+          "<tr><td colspan='2'>No scheduled streams this week.</td></tr>";
+        return;
+      }
+
+      for (const segment of weekSegments) {
+        const streamDate = toEasternTime(segment.start_time);
+        const title = segment.title || "Untitled Stream";
+        const day = formatDay(streamDate);
+        const time = formatTime(streamDate);
+
+        const row = document.createElement("tr");
+        const slug = day.toLowerCase();
+
+        row.innerHTML = `
+  <td>
+    <a href="/schedule/${slug}" style="color:#00ffcc; text-decoration:none;">
+      <strong>${day}</strong>
+    </a>
+    <br>
+    <span style="font-size:0.9rem; color:#aaa;">${title}</span>
+  </td>
+  <td class="time">${time}</td>
+`;
+
+        scheduleTableBody.appendChild(row);
+      }
+    } catch (err) {
+      console.error("Twitch schedule fetch error:", err);
+      scheduleTableBody.innerHTML =
+        "<tr><td colspan='2'>Failed to load schedule.</td></tr>";
+    }
+  });
+</script>

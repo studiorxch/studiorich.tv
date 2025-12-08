@@ -1,0 +1,50 @@
+<div class="reading-room">
+  <div class="hero-bg"></div>
+  <div class="hero-overlay"></div>
+
+  <section class="reading-room-hero">
+    <div class="hero-content">
+      <h1>The Reading Room</h1>
+      <p>One gradient. One loop. A quiet corner.</p>
+      <button class="fs-btn" onclick="toggleFullscreen()" title="Fullscreen">
+        ⛶
+      </button>
+      <audio
+        id="bgMusic"
+        src="/assets/loops/loops-between-pages.mp3"
+        autoplay
+        loop
+      ></audio>
+    </div>
+  </section>
+
+  <!-- Drawer -->
+  <div id="readingDrawer" class="drawer">
+    <div class="drawer-header">
+      <h2>Reading Room Posts</h2>
+      <button onclick="toggleDrawer()">✕</button>
+    </div>
+    <div class="drawer-content">
+      {% for post in site.categories["reading-room"] %}
+      <a href="{{ post.url }}" class="drawer-post">{{ post.title }}</a>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<script>
+  function toggleDrawer() {
+    document.getElementById("readingDrawer").classList.toggle("open");
+  }
+
+  function toggleFullscreen() {
+    const el = document.documentElement;
+    if (!document.fullscreenElement) {
+      el.requestFullscreen().then(() => {
+        document.getElementById("bgMusic").play(); // unlocks audio
+      });
+    } else {
+      document.exitFullscreen();
+    }
+  }
+</script>

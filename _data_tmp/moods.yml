@@ -1,0 +1,65 @@
+# _data/moods.yml
+
+rings:
+  core:
+    - id: anger
+      name: Anger
+      color: "#E74C3C"
+    - id: anticipation
+      name: Anticipation
+      color: "#F39C12"
+    - id: disgust
+      name: Disgust
+      color: "#27AE60"
+    - id: fear
+      name: Fear
+      color: "#16A085"
+    - id: joy
+      name: Joy
+      color: "#F1C40F"
+    - id: sadness
+      name: Sadness
+      color: "#3498DB"
+    - id: surprise
+      name: Surprise
+      color: "#9B59B6"
+    - id: trust
+      name: Trust
+      color: "#2ECC71"
+
+  aesthetic:
+    - id: cinematic
+      name: Cinematic
+      color: "#8E7BAA"
+    - id: experimental
+      name: Experimental
+      color: "#C4A4FF"
+    - id: nostalgic
+      name: Nostalgic
+      color: "#BCAAA4"
+    - id: peaceful
+      name: Peaceful
+      color: "#A5D6A7"
+    - id: tense
+      name: Tense
+      color: "#C48060"
+    - id: weightless
+      name: Weightless
+      color: "#AEDFF7"
+    - id: chill
+      name: Chill
+      color: "#A8C0C0"
+
+  style:
+    - id: lofi
+      name: Lo-Fi
+      color: "#9E9E9E"
+    - id: jazzy
+      name: Jazzy
+      color: "#C2A07D"
+    - id: minimalist
+      name: Minimalist
+      color: "#BDBDBD"
+    - id: raw
+      name: Raw
+      color: "#7E7E7E"

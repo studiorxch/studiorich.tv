@@ -1,0 +1,65 @@
+title: StudioRxch
+description: "Lo-fi music, ambient streams, and creative studio culture."
+url: "https://studiorxch.com"
+
+baseurl: ""
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+  posts:
+    output: true
+    permalink: /blog/:title/
+  events:
+    output: true
+    permalink: /events/:title/
+  tracks:
+    output: true
+    permalink: /tracks/:title/
+  playground:
+    output: true
+    permalink: /playground/:title/
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+      footer: true
+      player: false
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Only include EXACT files/folders needed for the site
+include:
+  - _headers
+  - _redirects
+  - assets/css
+  - assets/media/audio
+  - app
+
+ignore:
+  - .jekyllignore
+
+# 🔥 Hard block runtime paths so NOTHING gets copied to _site
+# Ensure Jekyll ignores ALL runtime files:
+exclude:
+  - radio/runtime/private/
+  - radio/runtime/private/**/*
+  - radio/runtime/data/
+  - radio/runtime/data/**/*
+  - radio/runtime/audio/
+  - radio/runtime/audio/**/*
+  - radio/runtime/functions/
+  - radio/runtime/functions/**/*
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-redirect-from
+
+force_deploy: true

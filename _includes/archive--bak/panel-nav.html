@@ -1,0 +1,15 @@
+{% assign siblings = site.panels | where: "station_id", page.station_id | sort: "order" %}
+{% assign idx = 0 %}
+{% for p in siblings %}{% if p.panel_id == page.panel_id %}{% assign idx = forloop.index0 %}{% endif %}{% endfor %}
+{% assign prev = siblings[idx | minus: 1] %}
+{% assign next = siblings[idx | plus: 1] %}
+
+<nav class="panel-nav" aria-label="Panel navigation">
+  {% if prev %}
+    <a class="prev" data-panel-nav href="{{ prev.url | relative_url }}" aria-label="Previous: {{ prev.title | escape }}">← Prev</a>
+  {% endif %}
+  <span class="count">{{ idx | plus: 1 }} / {{ siblings.size }}</span>
+  {% if next %}
+    <a class="next" data-panel-nav href="{{ next.url | relative_url }}" aria-label="Next: {{ next.title | escape }}">Next →</a>
+  {% endif %}
+</nav>

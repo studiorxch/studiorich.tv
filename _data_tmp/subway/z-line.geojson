@@ -1,0 +1,923 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.801109,
+          40.702147
+        ]
+      },
+      "properties": {
+        "stop_id": "G05S",
+        "stop_name": "Jamaica Center-Parsons/Archer",
+        "lines": [
+          "Z"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.807969,
+          40.700486
+        ]
+      },
+      "properties": {
+        "stop_id": "G06S",
+        "stop_name": "Sutphin Blvd-Archer Av-JFK Airport",
+        "lines": [
+          "Z"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.828294,
+          40.700492
+        ]
+      },
+      "properties": {
+        "stop_id": "J12S",
+        "stop_name": "121 St",
+        "lines": [
+          "Z"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.836345,
+          40.697418
+        ]
+      },
+      "properties": {
+        "stop_id": "J13S",
+        "stop_name": "111 St",
+        "lines": [
+          "Z"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.84433,
+          40.695178
+        ]
+      },
+      "properties": {
+        "stop_id": "J14S",
+        "stop_name": "104 St",
+        "lines": [
+          "Z"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.851576,
+          40.693879
+        ]
+      },
+      "properties": {
+        "stop_id": "J15S",
+        "stop_name": "Woodhaven Blvd",
+        "lines": [
+          "Z"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.86001,
+          40.692435
+        ]
+      },
+      "properties": {
+        "stop_id": "J16S",
+        "stop_name": "85 St-Forest Pkwy",
+        "lines": [
+          "Z"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.867139,
+          40.691324
+        ]
+      },
+      "properties": {
+        "stop_id": "J17S",
+        "stop_name": "75 St-Elderts Ln",
+        "lines": [
+          "Z"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.87255,
+          40.689941
+        ]
+      },
+      "properties": {
+        "stop_id": "J19S",
+        "stop_name": "Cypress Hills",
+        "lines": [
+          "Z"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.873785,
+          40.683194
+        ]
+      },
+      "properties": {
+        "stop_id": "J20S",
+        "stop_name": "Crescent St",
+        "lines": [
+          "Z"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.880039,
+          40.68141
+        ]
+      },
+      "properties": {
+        "stop_id": "J21S",
+        "stop_name": "Norwood Av",
+        "lines": [
+          "Z"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.891688,
+          40.678024
+        ]
+      },
+      "properties": {
+        "stop_id": "J23S",
+        "stop_name": "Van Siclen Av",
+        "lines": [
+          "Z"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.898654,
+          40.676992
+        ]
+      },
+      "properties": {
+        "stop_id": "J24S",
+        "stop_name": "Alabama Av",
+        "lines": [
+          "Z"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.904512,
+          40.679498
+        ]
+      },
+      "properties": {
+        "stop_id": "J27S",
+        "stop_name": "Broadway Junction",
+        "lines": [
+          "Z"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.910456,
+          40.682893
+        ]
+      },
+      "properties": {
+        "stop_id": "J28S",
+        "stop_name": "Chauncey St",
+        "lines": [
+          "Z"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.92227,
+          40.68963
+        ]
+      },
+      "properties": {
+        "stop_id": "J30S",
+        "stop_name": "Gates Av",
+        "lines": [
+          "Z"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.935657,
+          40.697207
+        ]
+      },
+      "properties": {
+        "stop_id": "M11S",
+        "stop_name": "Myrtle Av",
+        "lines": [
+          "Z"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.957757,
+          40.708359
+        ]
+      },
+      "properties": {
+        "stop_id": "M16S",
+        "stop_name": "Marcy Av",
+        "lines": [
+          "Z"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987437,
+          40.718315
+        ]
+      },
+      "properties": {
+        "stop_id": "M18S",
+        "stop_name": "Delancey St-Essex St",
+        "lines": [
+          "Z"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.993915,
+          40.72028
+        ]
+      },
+      "properties": {
+        "stop_id": "M19S",
+        "stop_name": "Bowery",
+        "lines": [
+          "Z"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.999892,
+          40.718092
+        ]
+      },
+      "properties": {
+        "stop_id": "M20S",
+        "stop_name": "Canal St",
+        "lines": [
+          "Z"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.003401,
+          40.713243
+        ]
+      },
+      "properties": {
+        "stop_id": "M21S",
+        "stop_name": "Chambers St",
+        "lines": [
+          "Z"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.007582,
+          40.710374
+        ]
+      },
+      "properties": {
+        "stop_id": "M22S",
+        "stop_name": "Fulton St",
+        "lines": [
+          "Z"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.011056,
+          40.706476
+        ]
+      },
+      "properties": {
+        "stop_id": "M23S",
+        "stop_name": "Broad St",
+        "lines": [
+          "Z"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.011056,
+          40.706476
+        ]
+      },
+      "properties": {
+        "stop_id": "M23N",
+        "stop_name": "Broad St",
+        "lines": [
+          "Z"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.007582,
+          40.710374
+        ]
+      },
+      "properties": {
+        "stop_id": "M22N",
+        "stop_name": "Fulton St",
+        "lines": [
+          "Z"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.003401,
+          40.713243
+        ]
+      },
+      "properties": {
+        "stop_id": "M21N",
+        "stop_name": "Chambers St",
+        "lines": [
+          "Z"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.999892,
+          40.718092
+        ]
+      },
+      "properties": {
+        "stop_id": "M20N",
+        "stop_name": "Canal St",
+        "lines": [
+          "Z"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.993915,
+          40.72028
+        ]
+      },
+      "properties": {
+        "stop_id": "M19N",
+        "stop_name": "Bowery",
+        "lines": [
+          "Z"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987437,
+          40.718315
+        ]
+      },
+      "properties": {
+        "stop_id": "M18N",
+        "stop_name": "Delancey St-Essex St",
+        "lines": [
+          "Z"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.957757,
+          40.708359
+        ]
+      },
+      "properties": {
+        "stop_id": "M16N",
+        "stop_name": "Marcy Av",
+        "lines": [
+          "Z"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.935657,
+          40.697207
+        ]
+      },
+      "properties": {
+        "stop_id": "M11N",
+        "stop_name": "Myrtle Av",
+        "lines": [
+          "Z"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.92227,
+          40.68963
+        ]
+      },
+      "properties": {
+        "stop_id": "J30N",
+        "stop_name": "Gates Av",
+        "lines": [
+          "Z"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.910456,
+          40.682893
+        ]
+      },
+      "properties": {
+        "stop_id": "J28N",
+        "stop_name": "Chauncey St",
+        "lines": [
+          "Z"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.904512,
+          40.679498
+        ]
+      },
+      "properties": {
+        "stop_id": "J27N",
+        "stop_name": "Broadway Junction",
+        "lines": [
+          "Z"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.898654,
+          40.676992
+        ]
+      },
+      "properties": {
+        "stop_id": "J24N",
+        "stop_name": "Alabama Av",
+        "lines": [
+          "Z"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.891688,
+          40.678024
+        ]
+      },
+      "properties": {
+        "stop_id": "J23N",
+        "stop_name": "Van Siclen Av",
+        "lines": [
+          "Z"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.880039,
+          40.68141
+        ]
+      },
+      "properties": {
+        "stop_id": "J21N",
+        "stop_name": "Norwood Av",
+        "lines": [
+          "Z"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.873785,
+          40.683194
+        ]
+      },
+      "properties": {
+        "stop_id": "J20N",
+        "stop_name": "Crescent St",
+        "lines": [
+          "Z"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.87255,
+          40.689941
+        ]
+      },
+      "properties": {
+        "stop_id": "J19N",
+        "stop_name": "Cypress Hills",
+        "lines": [
+          "Z"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.867139,
+          40.691324
+        ]
+      },
+      "properties": {
+        "stop_id": "J17N",
+        "stop_name": "75 St-Elderts Ln",
+        "lines": [
+          "Z"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.86001,
+          40.692435
+        ]
+      },
+      "properties": {
+        "stop_id": "J16N",
+        "stop_name": "85 St-Forest Pkwy",
+        "lines": [
+          "Z"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.851576,
+          40.693879
+        ]
+      },
+      "properties": {
+        "stop_id": "J15N",
+        "stop_name": "Woodhaven Blvd",
+        "lines": [
+          "Z"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.84433,
+          40.695178
+        ]
+      },
+      "properties": {
+        "stop_id": "J14N",
+        "stop_name": "104 St",
+        "lines": [
+          "Z"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.836345,
+          40.697418
+        ]
+      },
+      "properties": {
+        "stop_id": "J13N",
+        "stop_name": "111 St",
+        "lines": [
+          "Z"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.828294,
+          40.700492
+        ]
+      },
+      "properties": {
+        "stop_id": "J12N",
+        "stop_name": "121 St",
+        "lines": [
+          "Z"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.807969,
+          40.700486
+        ]
+      },
+      "properties": {
+        "stop_id": "G06N",
+        "stop_name": "Sutphin Blvd-Archer Av-JFK Airport",
+        "lines": [
+          "Z"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.801109,
+          40.702147
+        ]
+      },
+      "properties": {
+        "stop_id": "G05N",
+        "stop_name": "Jamaica Center-Parsons/Archer",
+        "lines": [
+          "Z"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.941126,
+          40.70026
+        ]
+      },
+      "properties": {
+        "stop_id": "M12S",
+        "stop_name": "Flushing Av",
+        "lines": [
+          "Z"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.947408,
+          40.703869
+        ]
+      },
+      "properties": {
+        "stop_id": "M13S",
+        "stop_name": "Lorimer St",
+        "lines": [
+          "Z"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.953431,
+          40.70687
+        ]
+      },
+      "properties": {
+        "stop_id": "M14S",
+        "stop_name": "Hewes St",
+        "lines": [
+          "Z"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.953431,
+          40.70687
+        ]
+      },
+      "properties": {
+        "stop_id": "M14N",
+        "stop_name": "Hewes St",
+        "lines": [
+          "Z"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.947408,
+          40.703869
+        ]
+      },
+      "properties": {
+        "stop_id": "M13N",
+        "stop_name": "Lorimer St",
+        "lines": [
+          "Z"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.941126,
+          40.70026
+        ]
+      },
+      "properties": {
+        "stop_id": "M12N",
+        "stop_name": "Flushing Av",
+        "lines": [
+          "Z"
+        ]
+      }
+    }
+  ]
+}

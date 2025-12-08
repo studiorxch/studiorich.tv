@@ -1,0 +1,34 @@
+/* -------------------------------------------------
+   StudioRich Font Stack: Satoshi + Inter
+--------------------------------------------------- */
+@font-face {
+  font-family: 'Satoshi';
+  src:
+    url('/assets/fonts/Satoshi/Satoshi-Variable.woff2') format('woff2'),
+    url('/assets/fonts/Satoshi/Satoshi-Variable.woff') format('woff');
+  font-weight: 300 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('/assets/fonts/Inter/Inter-VariableFont_opsz,wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #000;
+  color: #e0e0e0;
+  font-family:
+    'Satoshi',
+    'Inter',
+    -apple-system,
+    BlinkMacSystemFont,
+    sans-serif;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}

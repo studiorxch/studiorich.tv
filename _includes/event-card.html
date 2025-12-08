@@ -1,0 +1,13 @@
+<a class="event-card" href="{{ event.url }}">
+  {% if event.cover %}<img src="{{ event.cover }}" alt="{{ event.title }}">{% endif %}
+  <div class="event-card__body">
+    <h3>{{ event.title }}</h3>
+    <p class="meta">
+      {{ event.date | date: "%b %e, %Y" }}
+      {% if event.city %} · {{ event.city }}{% endif %}
+    </p>
+    {% if event.description %}<p>{{ event.description }}</p>{% endif %}
+  </div>
+</a>
+
+

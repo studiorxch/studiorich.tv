@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include head.html %}
+    <link rel="stylesheet" href="/assets/css/homepage.css" />
+    <link rel="stylesheet" href="/assets/css/drawer.css" />
+  </head>
+
+  <body>
+    {% include _drawer.html %}
+
+    <!-- MUST be directly after drawer -->
+    <div id="pageWrap" class="page-wrap">
+      <main id="studio-app">{{ content }}</main>
+    </div>
+
+    <script>
+      const drawer = document.getElementById("drawer");
+      const pageWrap = document.getElementById("pageWrap");
+      const btn = document.getElementById("drawerToggle");
+
+      btn.addEventListener("click", () => {
+        drawer.classList.toggle("open");
+        pageWrap.classList.toggle("shifted");
+      });
+    </script>
+  </body>
+</html>

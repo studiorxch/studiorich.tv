@@ -1,0 +1,18 @@
+<!-- /_layouts/default.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include head.html %}
+    <!-- Styles -->
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
+  </head>
+
+  <body>
+    <div class="layout-wrapper">
+      <main class="site-main" role="main">{{ content }}</main>
+    </div>
+
+    <!-- Subscribe Form (safe + passive) -->
+    <script src="/assets/js/subscribe-form.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+<aside class="global-nav" id="globalNav">
+  <!-- Logo -->
+  <div class="logo">
+    <a id="site-logo" href="/">
+      <img src="/assets/img/logos/studiorich-logo.svg" alt="StudioRich logo" />
+    </a>
+  </div>
+
+  <!-- Hamburger toggle -->
+  <button
+    class="menu-toggle hamburger"
+    id="hamburgerBtn"
+    aria-label="Toggle menu"
+    aria-controls="globalNav"
+    aria-expanded="false"
+    onclick="toggleNav()"
+  >
+    <span></span><span></span><span></span>
+  </button>
+
+  <!-- Icons -->
+  <ul class="nav-icons">
+    <li><a href="/events" title="Events"><img src="/assets/ui/calendar.svg" alt="Events" /></a></li>
+    <li><a href="https://twitch.tv/studiorich" target="_blank" title="Twitch"><img src="/assets/img/logos/twitch.svg" alt="Twitch" /></a></li>
+    <li><a href="https://youtube.com/@Studio-Rich" target="_blank" title="YouTube"><img src="/assets/img/logos/youtube.svg" alt="YouTube" /></a></li>
+    <li><a href="https://ko-fi.com/studiorich" target="_blank" title="Ko-fi"><img src="/assets/img/logos/kofi.svg" alt="Ko-fi" /></a></li>
+    <li><a href="/reading-room/?pack=hollow&q=0&duration=30&rotate=1" title="Reading Room"><img src="/assets/ui/hollow-book.svg" alt="Reading Room" /></a></li>
+  </ul>
+
+
+
+
+  <!-- Bottom controls -->
+  <div class="nav-system">
+    <button aria-label="Volume"><img src="/assets/ui/volume.svg" alt="Volume" /></button>
+    <button aria-label="Settings"><img src="/assets/ui/gear.svg" alt="Settings" /></button>
+  </div>
+</aside>
+
+<!-- Mobile overlay -->
+<div class="mobile-overlay" id="mobileOverlay" onclick="toggleNav(false)"></div>

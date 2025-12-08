@@ -1,0 +1,39 @@
+---
+layout: default
+title: 'Field Notes'
+permalink: /category/field-notes/
+image: /assets/img/blog/hero-field-notes.webp
+---
+
+{% include hero.html image=page.image title="Field Notes" subtitle="Quiet observations from the
+lo-fi underground." %}
+
+<div class="field-notes-feed">
+  {% for post in site.categories["field-notes"] %}
+  <div class="field-notes-entry">
+    <div class="entry-left">
+      <h2 class="entry-title">
+        {% if post.icon %}
+        <img src="{{ post.icon }}" alt="{{ post.title }} icon" class="entry-icon" />
+        {% endif %}
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </h2>
+
+      {% if post.description %}
+      <p class="entry-description">{{ post.description }}</p>
+      {% endif %}
+      <div class="entry-meta">
+        <span class="entry-date">{{ post.date | date: "%B %d, %Y" }}</span>
+        {% if post.tags %}
+        <span class="entry-tags"> – {{ post.tags | join: ", " }}</span>
+        {% endif %}
+      </div>
+    </div>
+    {% if post.image %}
+    <div class="entry-thumbnail">
+      <a href="{{ post.url }}"><img src="{{ post.image }}" alt="{{ post.title }} thumbnail" /></a>
+    </div>
+    {% endif %}
+  </div>
+  {% endfor %}
+</div>

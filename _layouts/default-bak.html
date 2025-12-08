@@ -1,0 +1,63 @@
+<!-- /_layouts/default.html -->
+<!doctype html>
+<html data-theme="light" lang="en">
+  <head>
+    <link rel="stylesheet" href="/assets/css/main.css" />
+
+    {% include head.html %}
+  </head>
+  <body>
+    <script>
+      if (
+        location.hostname.includes('dev.studiorich.shop') &&
+        sessionStorage.getItem('devAuth') !== 'ok'
+      ) {
+        location.href = '/gate.html'
+      }
+    </script>
+
+    {% include sidebar.html %}
+
+    <div class="layout-wrapper">
+      <main class="site-main" role="main">{{ content }}</main>
+      {% include footer.html %}
+    </div>
+
+    <!-- pass moods to javascript -->
+    {% if site.data.moods %}
+    <script id="moods-json" type="application/json">
+      {{ site.data.moods | jsonify }}
+    </script>
+    {% endif %}
+
+    <script type="module" src="/assets/js/magicLink.js"></script>
+    <script src="/assets/js/theme-toggle.js?v=3"></script>
+    <script src="/assets/js/user-settings.js?v=3"></script>
+    <script src="/assets/js/subscribe-form.js" defer></script>
+
+    {% if site.url contains "dev" %}
+    <div
+      style="
+        position: fixed;
+        bottom: 8px;
+        right: 10px;
+        font-size: 11px;
+        color: #0f0;
+        background: #111;
+        padding: 4px 6px;
+        border-radius: 4px;
+        opacity: 0.7;
+        z-index: 9999;
+      "
+    >
+      ⚙️ DEV: {{ site.url }}
+    </div>
+    {% endif %}
+
+    <div id="toast" class="toast"></div>
+
+    {% if page.title contains "StudioRich Playground" %}
+    <script type="module" src="/assets/js/mood-field-v2.js"></script>
+    {% endif %}
+  </body>
+</html>

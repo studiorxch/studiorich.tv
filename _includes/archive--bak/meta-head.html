@@ -1,0 +1,63 @@
+{% comment %} Meta/SEO head include (Liquid-safe) {% endcomment %}
+{%- assign base_title  = page.seo_title | default: page.title | default: site.title -%}
+{%- assign append_site = page.append_site_title -%}
+{%- if append_site == nil -%}{%- assign append_site = true -%}{%- endif -%}
+{%- if append_site and base_title != site.title -%}
+  {%- capture full_title -%}{{ base_title }} | {{ site.title }}{%- endcapture -%}
+{%- else -%}
+  {%- assign full_title = base_title -%}
+{%- endif -%}
+
+{%- assign share  = page.image | default: '/assets/img/default-share.jpg' -%}
+{%- assign ogtype = page.og_type | default: 'website' -%}
+
+{%- comment %} Station Notion override description {%- endcomment -%}
+{%- assign sid  = page.station_id | default: '' | append: '' -%}
+{%- assign ov   = site.data.stations_overrides[sid] -%}
+{%- assign raw_desc = page.description | default: ov.description | default: site.description -%}
+
+{%- comment %} Use first paragraph for meta; leave full version for on-page body {%- endcomment -%}
+{%- assign first_para = raw_desc | split: "\n\n" | first -%}
+{%- assign meta_desc  = first_para | strip | strip_html | replace: '\n',' ' | replace: '  ',' ' -%}
+
+<title>{{ full_title }}</title>
+<meta name="description" content="{{ meta_desc | truncate: 300 | escape_once }}">
+
+<meta name="twitter:site" content="@studiorxch" />
+
+{%- if jekyll.environment == "production" -%}
+<link rel="canonical" href="{{ page.url | absolute_url }}" />
+{%- endif -%}
+
+{%- comment %} ----- Robots: compute once, output once ----- {%- endcomment -%}
+{%- assign robots_content = page.robots -%}
+{%- if robots_content == nil or robots_content == "" -%}
+  {%- if jekyll.environment != "production" or page.indexed == false -%}
+    {%- assign robots_content = "noindex,nofollow" -%}
+  {%- else -%}
+    {%- assign robots_content = "index,follow" -%}
+  {%- endif -%}
+{%- endif -%}
+
+{%- comment %} Auto-allow index for published station/panel {%- endcomment -%}
+{%- if page.layout == 'station' and site.data.published_stations[sid] -%}
+  {%- assign robots_content = "index,follow" -%}
+{%- endif -%}
+{%- if page.layout == 'panel' and page.published == true -%}
+  {%- assign robots_content = "index,follow" -%}
+{%- endif -%}
+
+<meta name="robots" content="{{ robots_content }}">
+
+{%- comment %} OpenGraph / Twitter use the same resolved, escaped description {%- endcomment -%}
+<meta property="og:type"        content="{{ ogtype }}" />
+<meta property="og:site_name"   content="{{ site.title }}" />
+<meta property="og:title"       content="{{ page.og_title     | default: base_title }}" />
+<meta property="og:description" content="{{ page.og_description | default: meta_desc | escape_once }}" />
+<meta property="og:url"         content="{{ page.url | absolute_url }}" />
+<meta property="og:image"       content="{{ share | absolute_url }}" />
+
+<meta name="twitter:card"        content="summary_large_image" />
+<meta name="twitter:title"       content="{{ page.twitter_title       | default: base_title }}" />
+<meta name="twitter:description" content="{{ page.twitter_description | default: meta_desc | escape_once }}" />
+<meta name="twitter:image"       content="{{ page.image_jpg | default: share | absolute_url }}" />

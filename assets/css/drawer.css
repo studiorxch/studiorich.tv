@@ -1,0 +1,125 @@
+/* Drawer */
+#drawer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 260px;
+  height: 100vh;
+  transform: translateX(-260px);
+  transition: transform 0.35s ease;
+  overflow: hidden;
+  z-index: 5000;
+  border-right: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+#drawer.open {
+  transform: translateX(0);
+}
+
+/* BG image */
+#drawer .drawer-bg {
+  position: absolute;
+  inset: 0;
+  /*background-image: url("/assets/img/playground/20251202_2325.webp");*/
+  background-size: cover;
+  background-position: center;
+  filter: blur(14px) brightness(0.45);
+  transform: scale(1.1);
+  z-index: 1;
+}
+
+/* Tint */
+#drawer .drawer-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 2;
+}
+
+/* Menu */
+#drawer ul {
+  position: relative;
+  z-index: 3;
+  list-style: none;
+  padding: 70px 24px;
+  margin: 0;
+}
+
+#drawer ul li {
+  border-radius: 16px; /* soft round corners */
+  overflow: hidden; /* keeps hover glow contained */
+  transition: background 0.2s ease;
+  margin-bottom: 10px; /* spacing between rows */
+}
+
+/* Make the link fill the entire row */
+#drawer ul li a {
+  display: flex;
+  align-items: center;
+  gap: 12px; /* space between icon + label */
+  padding: 10px 16px;
+  width: 100%;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* SVG icon styling */
+#drawer .nav-icon {
+  width: 18px;
+  height: 18px;
+  opacity: 0.75;
+  filter: invert(1); /* ensure white on dark bg */
+  transition: opacity 0.2s ease;
+}
+
+#drawer ul li:hover {
+  background: rgba(51, 51, 51, 0.3);
+  backdrop-filter: blur(4px);
+}
+
+#drawer ul li:active {
+  background: rgba(255, 255, 255, 0.16); /* press state */
+}
+
+#drawer ul li {
+  transition: background 0.22s ease;
+}
+
+#drawer a {
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  opacity: 0.85;
+}
+#drawer a:hover {
+  opacity: 1;
+}
+
+/* Toggle button */
+.drawer-btn {
+  position: fixed;
+  top: 16px;
+  left: 16px;
+  background: none;
+  border: none;
+  color: #aaa;
+  z-index: 6000;
+  font-size: 22px;
+}
+.drawer-btn:hover {
+  color: #fff;
+}
+
+/* PAGE WRAP FIX — this is the ONLY correction needed */
+.page-wrap {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.35s ease, width 0.35s ease;
+}
+
+/* When drawer opens, shrink the canvas so 50% is the real center */
+.page-wrap.shifted {
+  transform: translateX(260px);
+  width: calc(100% - 260px);
+}

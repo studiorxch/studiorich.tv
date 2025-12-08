@@ -1,0 +1,20 @@
+{% assign slides = site.playground | sort:'path' %}
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": {{ page.title | default: 'Playground' | jsonify }},
+    "url": "{{ site.url }}{{ page.url }}",
+    "description": {{ page.description | default: site.description | jsonify }},
+    "hasPart": [
+      {% for s in slides limit: 24 %}
+      {
+        "@type": "CreativeWork",
+        "name": {{ s.title | jsonify }},
+        {% if s.img %}"image": "{{ site.url }}{{ s.img }}",{% endif %}
+        "url": "{{ site.url }}{{ page.url }}#slide-{{ forloop.index }}"
+      }{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    ]
+  }
+</script>

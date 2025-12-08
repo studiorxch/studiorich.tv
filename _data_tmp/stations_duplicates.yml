@@ -1,0 +1,512 @@
+# Station Duplicates — Non-Complex Collisions
+# Total: 155 stop_ids across 57 duplicate groups.
+---
+- duplicate_group: 1
+  name: "Dyckman St"
+  stop_ids:
+    - stop_id: "109"
+      routes: ["1"]
+    - stop_id: "A03"
+      routes: ["A"]
+
+- duplicate_group: 2
+  name: "181 St"
+  stop_ids:
+    - stop_id: "111"
+      routes: ["1"]
+    - stop_id: "A06"
+      routes: ["A"]
+
+- duplicate_group: 3
+  name: "168 St"
+  stop_ids:
+    - stop_id: "112"
+      routes: ["1"]
+    - stop_id: "A09"
+      routes: ["A", "C"]
+
+- duplicate_group: 4
+  name: "145 St"
+  stop_ids:
+    - stop_id: "114"
+      routes: ["1"]
+    - stop_id: "302"
+      routes: ["3"]
+    - stop_id: "A12"
+      routes: ["A", "C", "B", "D"]
+    - stop_id: "D13"
+      routes: ["B", "D"]
+
+- duplicate_group: 5
+  name: "125 St"
+  stop_ids:
+    - stop_id: "116"
+      routes: ["1"]
+    - stop_id: "225"
+      routes: ["2", "3"]
+    - stop_id: "621"
+      routes: ["4", "5", "6"]
+    - stop_id: "A15"
+      routes: ["A", "B", "C", "D"]
+
+- duplicate_group: 6
+  name: "Cathedral Pkwy (110 St)"
+  stop_ids:
+    - stop_id: "118"
+      routes: ["1"]
+    - stop_id: "A17"
+      routes: ["A", "B", "C"]
+
+- duplicate_group: 7
+  name: "103 St"
+  stop_ids:
+    - stop_id: "119"
+      routes: ["1"]
+    - stop_id: "624"
+      routes: ["4", "6"]
+    - stop_id: "A18"
+      routes: ["A", "B", "C"]
+
+- duplicate_group: 8
+  name: "96 St"
+  stop_ids:
+    - stop_id: "120"
+      routes: ["1", "2", "3"]
+    - stop_id: "625"
+      routes: ["6"]
+    - stop_id: "A19"
+      routes: ["A", "B", "C"]
+    - stop_id: "Q05"
+      routes: ["Q"]
+
+- duplicate_group: 9
+  name: "86 St"
+  stop_ids:
+    - stop_id: "121"
+      routes: ["1"]
+    - stop_id: "626"
+      routes: ["4", "5", "6"]
+    - stop_id: "A20"
+      routes: ["B", "C"]
+    - stop_id: "N10"
+      routes: ["N", "Q", "R"]
+    - stop_id: "Q04"
+      routes: ["Q"]
+    - stop_id: "R44"
+      routes: ["R"]
+
+- duplicate_group: 10
+  name: "79 St"
+  stop_ids:
+    - stop_id: "122"
+      routes: ["1"]
+    - stop_id: "B18"
+      routes: ["D"]
+
+- duplicate_group: 11
+  name: "72 St"
+  stop_ids:
+    - stop_id: "123"
+      routes: ["1", "2", "3"]
+    - stop_id: "A22"
+      routes: ["B", "C"]
+    - stop_id: "Q03"
+      routes: ["Q"]
+
+- duplicate_group: 12
+  name: "50 St"
+  stop_ids:
+    - stop_id: "126"
+      routes: ["1"]
+    - stop_id: "A25"
+      routes: ["C", "E"]
+    - stop_id: "B14"
+      routes: ["D"]
+
+- duplicate_group: 13
+  name: "34 St–Penn Station"
+  stop_ids:
+    - stop_id: "128"
+      routes: ["1", "2", "3"]
+    - stop_id: "A28"
+      routes: ["A", "C", "E"]
+
+- duplicate_group: 14
+  name: "28 St"
+  stop_ids:
+    - stop_id: "129"
+      routes: ["1"]
+    - stop_id: "633"
+      routes: ["6"]
+    - stop_id: "R18"
+      routes: ["R"]
+
+- duplicate_group: 15
+  name: "23 St"
+  stop_ids:
+    - stop_id: "130"
+      routes: ["1"]
+    - stop_id: "634"
+      routes: ["6"]
+    - stop_id: "A30"
+      routes: ["C", "E"]
+    - stop_id: "D18"
+      routes: ["F"]
+    - stop_id: "R19"
+      routes: ["R"]
+
+- duplicate_group: 16
+  name: "14 St"
+  stop_ids:
+    - stop_id: "132"
+      routes: ["1", "2", "3"]
+    - stop_id: "A31"
+      routes: ["A", "C", "E", "L"]
+
+- duplicate_group: 17
+  name: "Canal St"
+  stop_ids:
+    - stop_id: "135"
+      routes: ["6"]
+    - stop_id: "A34"
+      routes: ["A", "C", "E"]
+
+- duplicate_group: 18
+  name: "Chambers St"
+  stop_ids:
+    - stop_id: "137"
+      routes: ["1", "2", "3"]
+    - stop_id: "A36"
+      routes: ["A", "C"]
+
+- duplicate_group: 19
+  name: "Rector St"
+  stop_ids:
+    - stop_id: "139"
+      routes: ["1"]
+    - stop_id: "R26"
+      routes: ["R"]
+
+- duplicate_group: 20
+  name: "Gun Hill Rd"
+  stop_ids:
+    - stop_id: "208"
+      routes: ["2", "5"]
+    - stop_id: "503"
+      routes: ["5"]
+
+- duplicate_group: 21
+  name: "Pelham Pkwy"
+  stop_ids:
+    - stop_id: "211"
+      routes: ["2", "5"]
+    - stop_id: "504"
+      routes: ["5"]
+
+- duplicate_group: 22
+  name: "Prospect Av"
+  stop_ids:
+    - stop_id: "219"
+      routes: ["2", "5"]
+    - stop_id: "R34"
+      routes: ["R"]
+
+- duplicate_group: 23
+  name: "135 St"
+  stop_ids:
+    - stop_id: "224"
+      routes: ["2", "3"]
+    - stop_id: "A14"
+      routes: ["A", "B", "C"]
+
+- duplicate_group: 24
+  name: "116 St"
+  stop_ids:
+    - stop_id: "226"
+      routes: ["2", "3"]
+    - stop_id: "622"
+      routes: ["6"]
+    - stop_id: "A16"
+      routes: ["B", "C"]
+
+- duplicate_group: 25
+  name: "Wall St"
+  stop_ids:
+    - stop_id: "230"
+      routes: ["2", "3"]
+    - stop_id: "419"
+      routes: ["4", "5"]
+
+- duplicate_group: 26
+  name: "Bergen St"
+  stop_ids:
+    - stop_id: "236"
+      routes: ["2", "3"]
+    - stop_id: "F20"
+      routes: ["F", "G"]
+
+- duplicate_group: 27
+  name: "Church Av"
+  stop_ids:
+    - stop_id: "244"
+      routes: ["2", "5"]
+    - stop_id: "D28"
+      routes: ["B", "Q"]
+    - stop_id: "F27"
+      routes: ["F"]
+
+- duplicate_group: 28
+  name: "Nostrand Av"
+  stop_ids:
+    - stop_id: "248"
+      routes: ["3"]
+    - stop_id: "A46"
+      routes: ["A", "C"]
+
+- duplicate_group: 29
+  name: "Rockaway Av"
+  stop_ids:
+    - stop_id: "253"
+      routes: ["3"]
+    - stop_id: "A50"
+      routes: ["C"]
+
+- duplicate_group: 30
+  name: "Van Siclen Av"
+  stop_ids:
+    - stop_id: "256"
+      routes: ["3"]
+    - stop_id: "A53"
+      routes: ["C"]
+    - stop_id: "J23"
+      routes: ["J", "Z"]
+
+- duplicate_group: 31
+  name: "New Lots Av"
+  stop_ids:
+    - stop_id: "257"
+      routes: ["3"]
+    - stop_id: "L27"
+      routes: ["L"]
+
+- duplicate_group: 32
+  name: "Kingsbridge Rd"
+  stop_ids:
+    - stop_id: "406"
+      routes: ["4"]
+    - stop_id: "D04"
+      routes: ["B", "D"]
+
+- duplicate_group: 33
+  name: "Fordham Rd"
+  stop_ids:
+    - stop_id: "407"
+      routes: ["4"]
+    - stop_id: "D05"
+      routes: ["B", "D"]
+
+- duplicate_group: 34
+  name: "170 St"
+  stop_ids:
+    - stop_id: "412"
+      routes: ["4"]
+    - stop_id: "D09"
+      routes: ["B", "D"]
+
+- duplicate_group: 35
+  name: "167 St"
+  stop_ids:
+    - stop_id: "413"
+      routes: ["4"]
+    - stop_id: "D10"
+      routes: ["B", "D"]
+
+- duplicate_group: 36
+  name: "155 St"
+  stop_ids:
+    - stop_id: "A11"
+      routes: ["C"]
+    - stop_id: "D12"
+      routes: ["B", "D"]
+
+- duplicate_group: 37
+  name: "W 4 St–Wash Sq"
+  stop_ids:
+    - stop_id: "A32"
+      routes: ["A", "C", "E"]
+    - stop_id: "D20"
+      routes: ["B", "D", "F", "M"]
+
+- duplicate_group: 38
+  name: "Clinton–Washington Avs"
+  stop_ids:
+    - stop_id: "A44"
+      routes: ["C"]
+    - stop_id: "G35"
+      routes: ["G"]
+
+- duplicate_group: 39
+  name: "Broadway Junction"
+  stop_ids:
+    - stop_id: "A51"
+      routes: ["A", "C"]
+    - stop_id: "J28"
+      routes: ["J", "Z"]
+    - stop_id: "L24"
+      routes: ["L"]
+
+- duplicate_group: 40
+  name: "104 St"
+  stop_ids:
+    - stop_id: "A63"
+      routes: ["J", "Z"]
+    - stop_id: "J14"
+      routes: ["A"]
+
+- duplicate_group: 41
+  name: "Fort Hamilton Pkwy"
+  stop_ids:
+    - stop_id: "B13"
+      routes: ["D"]
+    - stop_id: "F26"
+      routes: ["F"]
+    - stop_id: "N03"
+      routes: ["N"]
+
+- duplicate_group: 42
+  name: "18 Av"
+  stop_ids:
+    - stop_id: "B19"
+      routes: ["D"]
+    - stop_id: "F30"
+      routes: ["F"]
+    - stop_id: "N05"
+      routes: ["N"]
+
+- duplicate_group: 43
+  name: "20 Av"
+  stop_ids:
+    - stop_id: "B20"
+      routes: ["D"]
+    - stop_id: "N06"
+      routes: ["N"]
+
+- duplicate_group: 44
+  name: "Bay Pkwy"
+  stop_ids:
+    - stop_id: "B21"
+      routes: ["D"]
+    - stop_id: "F32"
+      routes: ["F"]
+    - stop_id: "N07"
+      routes: ["N"]
+
+- duplicate_group: 45
+  name: "7 Av"
+  stop_ids:
+    - stop_id: "D14"
+      routes: ["B", "D", "E"]
+    - stop_id: "D25"
+      routes: ["F", "G"]
+    - stop_id: "F24"
+      routes: ["F"]
+
+- duplicate_group: 46
+  name: "Kings Hwy"
+  stop_ids:
+    - stop_id: "D35"
+      routes: ["B", "Q"]
+    - stop_id: "F35"
+      routes: ["F"]
+    - stop_id: "N08"
+      routes: ["N"]
+
+- duplicate_group: 47
+  name: "Av U"
+  stop_ids:
+    - stop_id: "D37"
+      routes: ["Q"]
+    - stop_id: "F36"
+      routes: ["F"]
+    - stop_id: "N09"
+      routes: ["N"]
+
+- duplicate_group: 48
+  name: "Court Sq–23rd St"
+  stop_ids:
+    - stop_id: "F09"
+      routes: ["E", "M"]
+    - stop_id: "G22"
+      routes: ["G"]
+
+- duplicate_group: 49
+  name: "Woodhaven Blvd"
+  stop_ids:
+    - stop_id: "G11"
+      routes: ["R", "M"]
+    - stop_id: "J15"
+      routes: ["J", "Z"]
+
+- duplicate_group: 50
+  name: "36 St"
+  stop_ids:
+    - stop_id: "G20"
+      routes: ["D", "N", "R"]
+    - stop_id: "R36"
+      routes: ["R"]
+
+- duplicate_group: 51
+  name: "Broadway"
+  stop_ids:
+    - stop_id: "G30"
+      routes: ["G"]
+    - stop_id: "R05"
+      routes: ["N", "Q", "R", "W"]
+
+- duplicate_group: 52
+  name: "Flushing Av"
+  stop_ids:
+    - stop_id: "G31"
+      routes: ["G"]
+    - stop_id: "M12"
+      routes: ["J", "M", "Z"]
+
+- duplicate_group: 53
+  name: "Broad Channel"
+  stop_ids:
+    - stop_id: "H04"
+      routes: ["A", "S"]
+    - stop_id: "H19"
+      routes: ["S"]
+
+- duplicate_group: 54
+  name: "Halsey St"
+  stop_ids:
+    - stop_id: "J29"
+      routes: ["J"]
+    - stop_id: "L19"
+      routes: ["L"]
+
+- duplicate_group: 55
+  name: "8 Av"
+  stop_ids:
+    - stop_id: "L01"
+      routes: ["L"]
+    - stop_id: "N02"
+      routes: ["N"]
+
+- duplicate_group: 56
+  name: "Lorimer St"
+  stop_ids:
+    - stop_id: "L10"
+      routes: ["L"]
+    - stop_id: "M13"
+      routes: ["M"]
+
+- duplicate_group: 57
+  name: "DeKalb Av"
+  stop_ids:
+    - stop_id: "L16"
+      routes: ["L"]
+    - stop_id: "R30"
+      routes: ["B", "D", "N", "Q", "R"]

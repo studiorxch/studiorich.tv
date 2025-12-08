@@ -1,0 +1,84 @@
+<div class="youtube-carousel-wrapper">
+  <button class="carousel-arrow left" onclick="scrollCarousel(-1)">
+    <img src="/assets/ui/arrow-left.svg" alt="Left" class="arrow-icon" />
+  </button>
+  <div class="youtube-carousel" id="youtubeCarousel">
+    {% assign urls = include.video_urls | split: ',' %} {% for url in urls %}
+    <iframe
+      src="{{ url | strip }}"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+      loading="lazy"
+    ></iframe>
+    {% endfor %}
+  </div>
+  <button class="carousel-arrow right" onclick="scrollCarousel(1)">
+    <img src="/assets/ui/arrow-right.svg" alt="Right" class="arrow-icon" />
+  </button>
+</div>
+
+<style>
+  .youtube-carousel-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .youtube-carousel {
+    display: flex;
+    overflow: hidden;
+    gap: 1rem;
+    scroll-behavior: smooth;
+  }
+
+  .youtube-carousel iframe {
+    flex: 0 0 320px;
+    height: 180px;
+    border-radius: 12px;
+    border: none;
+  }
+
+  .carousel-arrow {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0 1rem;
+    z-index: 1;
+  }
+
+  .arrow-icon {
+    height: 64px;
+    width: 64px;
+    filter: brightness(0) invert(1);
+    transition: filter 0.3s ease;
+  }
+
+  .arrow-icon:hover {
+    filter: brightness(1.5);
+  }
+
+  .carousel-arrow.left {
+    position: absolute;
+    left: 0;
+  }
+
+  .carousel-arrow.right {
+    position: absolute;
+    right: 0;
+  }
+</style>
+
+<script>
+  function scrollCarousel(direction) {
+    const carousel = document.getElementById("youtubeCarousel");
+    const scrollAmount = 340; // including gap
+    carousel.scrollBy({
+      left: scrollAmount * direction,
+      behavior: "smooth",
+    });
+  }
+</script>

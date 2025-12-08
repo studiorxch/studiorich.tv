@@ -1,0 +1,200 @@
+/* ---------------------------------------------------------
+   Global Reset
+--------------------------------------------------------- */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: #151515;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  color: #ccc;
+  user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+/* Main wrapper */
+#studio-app {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+#pageWrap {
+  position: absolute; /* Keep existing */
+  top: 0;
+  left: 0;
+  height: 100%;
+
+  /* Set defaults here */
+  width: 100%;
+  margin-left: 0;
+
+  /* Add transition for both margin AND width */
+  transition: width 0.35s ease, margin-left 0.35s ease, transform 0.35s ease;
+}
+
+/* This was the fix */
+#pageWrap.shifted {
+  margin-left: 0px;
+  /* Resizing the width forces 'left: 50%' elements to re-center 
+     in the remaining space */
+  width: calc(100% - 260px);
+}
+
+/* LOGO */
+#logo-layer {
+  position: absolute;
+  top: 24%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#StudioRichIcon {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  image-rendering: crisp-edges;
+}
+
+#moodline {
+  position: absolute;
+  top: 42%;
+  left: 0;
+  width: 100%;
+}
+
+#mood-logo {
+  transition: transform 0.4s ease, opacity 0.4s ease;
+}
+
+/* NOW PLAYING */
+#info-layer {
+  position: absolute;
+  top: calc(50% + 80px);
+  width: 100%;
+  text-align: center;
+}
+
+#nowplaying-label {
+  font-size: 12px;
+  margin: 0;
+  color: #888;
+}
+
+#track-line {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  position: relative;
+  left: 12px;
+  min-height: 1.4rem;
+}
+
+#track-title {
+  font-size: 26px;
+  font-weight: 600;
+  color: #fff;
+  line-height: 1.2;
+}
+
+.variant-pill {
+  font-size: 10px;
+  opacity: 0.45;
+  padding: 2px 6px;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.1);
+  margin-left: 2px;
+}
+
+.np-pulse {
+  width: 6px;
+  height: 6px;
+  background: #ccc;
+  opacity: 0.4;
+  border-radius: 50%;
+  display: inline-block;
+  animation: pulse 1.8s infinite ease-in-out;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0.2;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(1.4);
+  }
+  100% {
+    opacity: 0.2;
+    transform: scale(1);
+  }
+}
+
+/* LIVE ICONS */
+#live-icons {
+  position: absolute; /* WAS fixed */
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9999;
+  display: flex;
+  gap: 24px;
+}
+
+#live-icons a img {
+  width: 28px;
+  height: 28px;
+  opacity: 0.2;
+  transition: opacity 0.25s ease, filter 0.25s ease;
+  filter: invert(0);
+}
+
+#live-icons a:hover img {
+  opacity: 0.75;
+}
+
+#twitch-icon.live img {
+  animation: sr-pulse 1.6s infinite ease-in-out;
+  filter: invert(0);
+  opacity: 1;
+}
+
+@keyframes sr-pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.15);
+    opacity: 0.65;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* MOBILE */
+@media (max-width: 480px) {
+  #StudioRichIcon {
+    width: 40px;
+    height: 40px;
+  }
+  #nowplaying-title {
+    font-size: 21px;
+  }
+  #live-icons {
+    bottom: 14px;
+    gap: 18px;
+  }
+  #live-icons a img {
+    width: 24px;
+    height: 24px;
+  }
+}

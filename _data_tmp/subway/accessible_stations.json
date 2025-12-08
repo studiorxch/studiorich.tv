@@ -1,0 +1,734 @@
+[
+    {
+        "Station": "1 Av",
+        "Line": "L",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "14 St/6 Av",
+        "Line": "F / M",
+        "Note": "uptown only; L fully accessible",
+        "ADA": "1"
+    },
+    {
+        "Station": "14 St/8 Av",
+        "Line": "A / C / E / L",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "14 St-Union Sq",
+        "Line": "L / N / Q / R / W",
+        "Note": "only; 4 / 5 / 6 is not accessible",
+        "ADA": "1"
+    },
+    {
+        "Station": "23 St",
+        "Line": "6",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "28 St",
+        "Line": "6",
+        "Note": "downtown only",
+        "ADA": "1"
+    },
+    {
+        "Station": "34 St-Herald Sq",
+        "Line": "B / D / F / M / N / Q / R / W",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "34 St-Penn Station",
+        "Line": "1 / 2 / 3 / A / C / E",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "34 St-Hudson Yards",
+        "Line": "7",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "42 St-Port Authority Bus Terminal",
+        "Line": "A / C / E",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "47-50 Sts-Rockefeller Ctr",
+        "Line": "B / D / F / M",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "49 St",
+        "Line": "N / R / W",
+        "Note": "uptown only",
+        "ADA": "1"
+    },
+    {
+        "Station": "50 St",
+        "Line": "C / E",
+        "Note": "downtown only",
+        "ADA": "1"
+    },
+    {
+        "Station": "51 St",
+        "Line": "6",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "57 St-7 Av",
+        "Line": "N / Q / R / W",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "59 St-Columbus Circle",
+        "Line": "A / C / B / D / 1",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "66 St-Lincoln Center",
+        "Line": "1",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "72 St",
+        "Line": "1 / 2 / 3 / Q",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "86 St",
+        "Line": "4 / 5 / 6",
+        "Note": "uptown only",
+        "ADA": "1"
+    },
+    {
+        "Station": "96 St",
+        "Line": "1 / 2 / 3",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "125 St",
+        "Line": "4 / 5 / 6 / A / C / B / D",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "135 St",
+        "Line": "2 / 3",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "168 St",
+        "Line": "A / C",
+        "Note": "only; 1 is not accessible",
+        "ADA": "1"
+    },
+    {
+        "Station": "175 St",
+        "Line": "A",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "181 St",
+        "Line": "A",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "Bleecker St",
+        "Line": "6",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "Bowling Green",
+        "Line": "4 / 5",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "Broadway-Lafayette St",
+        "Line": "B / D / F / M",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "Brooklyn Bridge-City Hall",
+        "Line": "4 / 5 / 6",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "Canal St",
+        "Line": "6",
+        "Note": "only; J / N / Q / R / W are not accessible",
+        "ADA": "1"
+    },
+    {
+        "Station": "Chambers St",
+        "Line": "1 / 2 / 3 / J / Z",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "Cortlandt St",
+        "Line": "R / W",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "Dyckman St",
+        "Line": "1",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "Fulton St",
+        "Line": "2 / 3 / 4 / 5 / A / C / J / Z",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "Grand Central-42 St",
+        "Line": "4 / 5 / 6 / 7 / S",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "Inwood-207 St",
+        "Line": "A",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "Lexington Av/53 St",
+        "Line": "E / M",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "Lexington Av/63 St",
+        "Line": "F / Q",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "Roosevelt Island",
+        "Line": "F",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "South Ferry",
+        "Line": "1",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "Times Square-42 St",
+        "Line": "N / Q/ R/ W / 1 / 2 / 3/ 7/ S",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "West 4 St-Washington Sq",
+        "Line": "A / C / E",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "World Trade Center",
+        "Line": "E",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "WTC Cortlandt",
+        "Line": "1",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "7 Av",
+        "Line": "F / G",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "8 Av",
+        "Line": "N",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "59 St",
+        "Line": "N / R",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "62 St/New Utrecht Av",
+        "Line": "D / N",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "86 St",
+        "Line": "R",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "Atlantic Av-Barclays Ctr",
+        "Line": "B / D / N / Q / R / 2 / 3 / 4 / 5",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "Avenue H",
+        "Line": "Q",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "Bay Pkwy",
+        "Line": "D",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "Bedford Av",
+        "Line": "L",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "Borough Hall",
+        "Line": "2 / 3 / 4 / 5",
+        "Note": "Manhattan and The Bronx-bound only",
+        "ADA": "1"
+    },
+    {
+        "Station": "Canarsie/Rockaway Pkwy",
+        "Line": "L",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "Church Av",
+        "Line": "2 / 5",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "Coney Island/Stillwell Av",
+        "Line": "D / F / N / Q",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "Crown Hts/Utica Av",
+        "Line": "3 / 4",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "DeKalb Av",
+        "Line": "B / Q/ R",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "Eastern Pkwy-Brooklyn Museum",
+        "Line": "2 / 3",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "Euclid Av",
+        "Line": "A / C",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "Flatbush Av-Brooklyn College",
+        "Line": "2 / 5",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "Flushing Av",
+        "Line": "J / M",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "Franklin Av",
+        "Line": "A / Sr",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "Grand St.",
+        "Line": "L",
+        "Note": "",
+        "ADA": ""
+    },
+    {
+        "Station": "Greenpoint Av",
+        "Line": "G",
+        "Note": "",
+        "ADA": ""
+    },
+    {
+        "Station": "Hoyt St",
+        "Line": "2 / 3",
+        "Note": "New Lots Av / Flatbush Av - bound only",
+        "ADA": ""
+    },
+    {
+        "Station": "Jay St-MetroTech",
+        "Line": "A / C / F / R",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "Kings Highway",
+        "Line": "B / Q",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "Lorimer St",
+        "Line": "L",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "Marcy Av",
+        "Line": "J / M / Z",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "Metropolitan Av",
+        "Line": "G",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "Myrtle/Wyckoff Av",
+        "Line": "L / M",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "Park Place",
+        "Line": "Sr",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "Prospect Park",
+        "Line": "B / Q/ Sr",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "Utica Av",
+        "Line": "A / C",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "Wilson Av",
+        "Line": "L",
+        "Note": "Manhattan-bound only",
+        "ADA": "1"
+    },
+    {
+        "Station": "21 St-Queensbridge",
+        "Line": "F",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "61 St-Woodside",
+        "Line": "&",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "Aqueduct Racetrack",
+        "Line": "A",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "Astoria Blvd",
+        "Line": "N / W",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "Beach 67 St",
+        "Line": "A",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "Court Sq",
+        "Line": "G / 7",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "Court Sq-23 St",
+        "Line": "E / M",
+        "Note": "Manhattan-bound only",
+        "ADA": "1"
+    },
+    {
+        "Station": "Far Rockaway-Mott Av",
+        "Line": "A",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "Flushing/Main St",
+        "Line": "7",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "Forest Hills-71 Av",
+        "Line": "E / F / M / R",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "Howard Beach-JFK Airport",
+        "Line": "A",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "Jackson Hts-Roosevelt Av/74 St-Broadway",
+        "Line": "F / F / M / R / 7",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "Jamaica/179 St",
+        "Line": "F",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "Jamaica Center-Parsons/Archer",
+        "Line": "E / J / Z",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "Jamaica-Van Wyck",
+        "Line": "E",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "Junction Blvd",
+        "Line": "7",
+        "Note": "rush hours only; all times",
+        "ADA": "1"
+    },
+    {
+        "Station": "Kew Gardens-Union Tpke",
+        "Line": "E / F",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "Middle Village/Metropolitan Av",
+        "Line": "M",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "Ozone Park-Lefferts Blvd",
+        "Line": "A",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "Queens Plaza",
+        "Line": "E / M / R",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "Rockaway Park-Beach 116 St",
+        "Line": "A",
+        "Note": "Sr all times",
+        "ADA": "1"
+    },
+    {
+        "Station": "Sutphin Blvd-Archer Av/JFK Airport",
+        "Line": "E / J / Z",
+        "Note": "",
+        "ADA": "1"
+    },
+    {
+        "Station": "Arthur Kill",
+        "Line": "SIR",
+        "Note": "",
+        "ADA": ""
+    },
+    {
+        "Station": "Dongan Hills",
+        "Line": "SIR",
+        "Note": "",
+        "ADA": ""
+    },
+    {
+        "Station": "Great Kills",
+        "Line": "SIR",
+        "Note": "",
+        "ADA": ""
+    },
+    {
+        "Station": "New Dorp",
+        "Line": "SIR",
+        "Note": "",
+        "ADA": ""
+    },
+    {
+        "Station": "St. George",
+        "Line": "SIR",
+        "Note": "",
+        "ADA": ""
+    },
+    {
+        "Station": "Tottenville",
+        "Line": "SIR",
+        "Note": "",
+        "ADA": ""
+    },
+    {
+        "Station": "3 Av-149 St",
+        "Line": "2 / 5",
+        "Note": "",
+        "ADA": ""
+    },
+    {
+        "Station": "161 St-Yankee Stadium",
+        "Line": "B / D / 4",
+        "Note": "",
+        "ADA": ""
+    },
+    {
+        "Station": "170 St",
+        "Line": "4",
+        "Note": "",
+        "ADA": ""
+    },
+    {
+        "Station": "231 St",
+        "Line": "1",
+        "Note": "",
+        "ADA": ""
+    },
+    {
+        "Station": "233 St",
+        "Line": "2 / 5",
+        "Note": "",
+        "ADA": ""
+    },
+    {
+        "Station": "Bedford Park Blvd",
+        "Line": "B / D",
+        "Note": "",
+        "ADA": ""
+    },
+    {
+        "Station": "E 149 St",
+        "Line": "6",
+        "Note": "",
+        "ADA": ""
+    },
+    {
+        "Station": "E 180 St",
+        "Line": "2 / 5",
+        "Note": "",
+        "ADA": ""
+    },
+    {
+        "Station": "Fordham Rd",
+        "Line": "4",
+        "Note": "",
+        "ADA": ""
+    },
+    {
+        "Station": "Gun Hill Rd-Dyre Ave",
+        "Line": "5",
+        "Note": "",
+        "ADA": ""
+    },
+    {
+        "Station": "Gun Hill Rd-White Plains Rd Line",
+        "Line": "2 / 5",
+        "Note": "",
+        "ADA": ""
+    },
+    {
+        "Station": "Hunts Point Av",
+        "Line": "6",
+        "Note": "",
+        "ADA": ""
+    },
+    {
+        "Station": "Kingsbridge Rd",
+        "Line": "B / D",
+        "Note": "",
+        "ADA": ""
+    },
+    {
+        "Station": "Pelham Bay Park",
+        "Line": "6",
+        "Note": "",
+        "ADA": ""
+    },
+    {
+        "Station": "Pelham Pkwy-White Plains Rd Line",
+        "Line": "2 / 5",
+        "Note": "",
+        "ADA": ""
+    },
+    {
+        "Station": "Simpson St",
+        "Line": "2 / 5",
+        "Note": "",
+        "ADA": ""
+    },
+    {
+        "Station": "Tremont Ave",
+        "Line": "B / D",
+        "Note": "",
+        "ADA": ""
+    }
+]

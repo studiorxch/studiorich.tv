@@ -1,0 +1,194 @@
+# Station Complexes — Official 32
+# 75 stop_ids across 32 official complexes.
+---
+- complex_id: 1
+  name: "14th Street–Eighth Avenue"
+  borough: "Manhattan"
+  lines: ["A", "C", "E", "L"]
+  stop_ids: ["A31"]
+
+- complex_id: 2
+  name: "14th Street–Sixth Avenue"
+  borough: "Manhattan"
+  lines: ["F", "M", "L", "1", "2", "3", "PATH"]
+  stop_ids: ["132", "D19"]
+
+- complex_id: 3
+  name: "14th Street–Union Square"
+  borough: "Manhattan"
+  lines: ["L", "N", "Q", "R", "W", "4", "5", "6"]
+  stop_ids: ["L03", "R20", "635"]
+
+- complex_id: 4
+  name: "34th Street–Herald Square"
+  borough: "Manhattan"
+  lines: ["B", "D", "F", "M", "N", "Q", "R", "W"]
+  stop_ids: ["D17", "R17"]
+
+- complex_id: 5
+  name: "42nd Street–Bryant Park/Fifth Avenue"
+  borough: "Manhattan"
+  lines: ["B", "D", "F", "M", "7"]
+  stop_ids: ["D16", "725"]
+
+- complex_id: 6
+  name: "59th Street–Columbus Circle"
+  borough: "Manhattan"
+  lines: ["A", "B", "C", "D", "1"]
+  stop_ids: ["A24", "125"]
+
+- complex_id: 7
+  name: "168th Street"
+  borough: "Manhattan"
+  lines: ["A", "C", "1"]
+  stop_ids: ["A09", "112"]
+
+- complex_id: 8
+  name: "Broadway–Lafayette Street/Bleecker Street"
+  borough: "Manhattan"
+  lines: ["B", "D", "F", "M", "6"]
+  stop_ids: ["D21", "637"]
+
+- complex_id: 9
+  name: "Brooklyn Bridge–City Hall/Chambers Street"
+  borough: "Manhattan"
+  lines: ["J", "Z", "4", "5", "6"]
+  stop_ids: ["640", "M21"]
+
+- complex_id: 10
+  name: "Canal Street"
+  borough: "Manhattan"
+  lines: ["J", "Z", "N", "Q", "R", "W", "6"]
+  stop_ids: ["639", "M20", "Q01", "R23"]
+
+- complex_id: 11
+  name: "Chambers Street–WTC/Park Place/Cortlandt"
+  borough: "Manhattan"
+  lines: ["A", "C", "E", "2", "3", "PATH"]
+  stop_ids: ["A41", "231", "228"]
+
+- complex_id: 12
+  name: "Delancey Street/Essex Street"
+  borough: "Manhattan"
+  lines: ["F", "J", "M", "Z"]
+  stop_ids: ["F15", "M18"]
+
+- complex_id: 13
+  name: "Fulton Street"
+  borough: "Manhattan"
+  lines: ["A", "C", "J", "Z", "2", "3", "4", "5"]
+  stop_ids: ["229", "418", "A38", "M22"]
+
+- complex_id: 14
+  name: "Grand Central–42nd Street"
+  borough: "Manhattan"
+  lines: ["S", "4", "5", "6", "7", "7X"]
+  stop_ids: ["631", "723", "901"]
+
+- complex_id: 15
+  name: "Lexington Avenue/51st Street"
+  borough: "Manhattan"
+  lines: ["E", "M", "6"]
+  stop_ids: ["630", "F11"]
+
+- complex_id: 16
+  name: "Lexington Avenue/59th Street"
+  borough: "Manhattan"
+  lines: ["N", "R", "W", "4", "5", "6", "6X"]
+  stop_ids: ["629", "R11"]
+
+- complex_id: 17
+  name: "South Ferry/Whitehall Street"
+  borough: "Manhattan"
+  lines: ["R", "W", "1"]
+  stop_ids: ["142", "R27"]
+
+- complex_id: 18
+  name: "Times Square–42nd Street/Port Authority"
+  borough: "Manhattan"
+  lines: ["A", "C", "E", "N", "Q", "R", "W", "S", "1", "2", "3", "7"]
+  stop_ids: ["127", "725", "902", "R16", "A27"]
+
+- complex_id: 19
+  name: "149th Street–Grand Concourse"
+  borough: "Bronx"
+  lines: ["2", "4", "5"]
+  stop_ids: ["222", "415"]
+
+- complex_id: 20
+  name: "161st Street–Yankee Stadium"
+  borough: "Bronx"
+  lines: ["B", "D", "4"]
+  stop_ids: ["414", "D11"]
+
+- complex_id: 21
+  name: "Court Square–23rd Street"
+  borough: "Queens"
+  lines: ["E", "M", "G", "7"]
+  stop_ids: ["719", "F09", "G22"]
+
+- complex_id: 22
+  name: "Jackson Heights–Roosevelt Ave/74th Street–Broadway"
+  borough: "Queens"
+  lines: ["E", "F", "M", "R", "7", "7X"]
+  stop_ids: ["G14", "710"]
+
+- complex_id: 23
+  name: "Atlantic Avenue–Barclays Center"
+  borough: "Brooklyn"
+  lines: ["B", "Q", "2", "3", "4", "5", "D", "N", "R", "W"]
+  stop_ids: ["235", "D24", "R31"]
+
+- complex_id: 24
+  name: "Borough Hall/Court Street"
+  borough: "Brooklyn"
+  lines: ["R", "2", "3", "4", "5"]
+  stop_ids: ["232", "423", "R28"]
+
+- complex_id: 25
+  name: "Broadway Junction"
+  borough: "Brooklyn"
+  lines: ["A", "C", "J", "Z", "L"]
+  stop_ids: ["A51", "J28", "L24"]
+
+- complex_id: 26
+  name: "Franklin Avenue/Botanic Garden"
+  borough: "Brooklyn"
+  lines: ["2", "3", "4", "5", "S"]
+  stop_ids: ["239", "S04"]
+
+- complex_id: 27
+  name: "Fourth Avenue/Ninth Street"
+  borough: "Brooklyn"
+  lines: ["F", "G", "R"]
+  stop_ids: ["F23", "R33"]
+
+- complex_id: 28
+  name: "Jay Street–MetroTech"
+  borough: "Brooklyn"
+  lines: ["A", "C", "F", "R"]
+  stop_ids: ["A41", "R29"]
+
+- complex_id: 29
+  name: "Lorimer Street/Metropolitan Avenue"
+  borough: "Brooklyn"
+  lines: ["L", "G"]
+  stop_ids: ["L10", "G29"]
+
+- complex_id: 30
+  name: "Myrtle–Wyckoff Avenues"
+  borough: "Brooklyn"
+  lines: ["L", "M"]
+  stop_ids: ["L17", "M08"]
+
+- complex_id: 31
+  name: "62nd Street/New Utrecht Avenue"
+  borough: "Brooklyn"
+  lines: ["D", "N"]
+  stop_ids: ["B16", "N04"]
+
+- complex_id: 32
+  name: "Franklin Avenue"
+  borough: "Brooklyn"
+  lines: ["S", "C"]
+  stop_ids: ["A45", "S01"]

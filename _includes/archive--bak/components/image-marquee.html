@@ -1,0 +1,58 @@
+<div class="image-marquee-wrapper">
+  <div class="image-marquee" id="imageMarquee">
+    <a href="#"><img src="/assets/img/sample1.jpg" alt="Image 1"></a>
+    <a href="#"><img src="/assets/img/sample2.jpg" alt="Image 2"></a>
+    <a href="#"><img src="/assets/img/sample3.jpg" alt="Image 3"></a>
+    <a href="#"><img src="/assets/img/sample4.jpg" alt="Image 4"></a>
+  </div>
+</div>
+
+<style>
+  .image-marquee-wrapper {
+    overflow: hidden;
+    width: 100%;
+    padding: 2rem 0;
+  }
+  .image-marquee {
+    display: flex;
+    animation: scroll-marquee 20s linear infinite;
+    gap: 2rem;
+  }
+  .image-marquee:hover {
+    animation-play-state: paused;
+  }
+  .image-marquee a {
+    display: inline-block;
+    transition: transform 0.3s ease, filter 0.3s ease;
+  }
+  .image-marquee a:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+  }
+  .image-marquee img {
+    height: 120px;
+    border-radius: 8px;
+    transition: filter 0.3s ease;
+  }
+  @keyframes scroll-marquee {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+</style>
+
+<script>
+  // Optional: Duplicate images for seamless looping
+  document.addEventListener("DOMContentLoaded", () => {
+    const marquee = document.getElementById("imageMarquee");
+    if (marquee) {
+      marquee.innerHTML += marquee.innerHTML;
+    }
+  });
+</script>
+
+<!-- You can reuse this component using include: -->
+<!-- {% include image-marquee.html %} -->

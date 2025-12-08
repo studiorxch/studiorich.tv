@@ -1,0 +1,617 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.83003,
+          40.7596
+        ]
+      },
+      "properties": {
+        "stop_id": "701S",
+        "stop_name": "Flushing-Main St",
+        "lines": [
+          "7X"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.845625,
+          40.754622
+        ]
+      },
+      "properties": {
+        "stop_id": "702S",
+        "stop_name": "Mets-Willets Point",
+        "lines": [
+          "7X"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.869527,
+          40.749145
+        ]
+      },
+      "properties": {
+        "stop_id": "707S",
+        "stop_name": "Junction Blvd",
+        "lines": [
+          "7X"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.891394,
+          40.746848
+        ]
+      },
+      "properties": {
+        "stop_id": "710S",
+        "stop_name": "74 St-Broadway",
+        "lines": [
+          "7X"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.896403,
+          40.746325
+        ]
+      },
+      "properties": {
+        "stop_id": "711S",
+        "stop_name": "69 St",
+        "lines": [
+          "7X"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.902984,
+          40.74563
+        ]
+      },
+      "properties": {
+        "stop_id": "712S",
+        "stop_name": "61 St-Woodside",
+        "lines": [
+          "7X"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.912549,
+          40.744149
+        ]
+      },
+      "properties": {
+        "stop_id": "713S",
+        "stop_name": "52 St",
+        "lines": [
+          "7X"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.918435,
+          40.743132
+        ]
+      },
+      "properties": {
+        "stop_id": "714S",
+        "stop_name": "46 St-Bliss St",
+        "lines": [
+          "7X"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.924016,
+          40.743781
+        ]
+      },
+      "properties": {
+        "stop_id": "715S",
+        "stop_name": "40 St-Lowery St",
+        "lines": [
+          "7X"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.930997,
+          40.744587
+        ]
+      },
+      "properties": {
+        "stop_id": "716S",
+        "stop_name": "33 St-Rawson St",
+        "lines": [
+          "7X"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.940202,
+          40.750582
+        ]
+      },
+      "properties": {
+        "stop_id": "718S",
+        "stop_name": "Queensboro Plaza",
+        "lines": [
+          "7X"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945264,
+          40.747023
+        ]
+      },
+      "properties": {
+        "stop_id": "719S",
+        "stop_name": "Court Sq",
+        "lines": [
+          "7X"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.948916,
+          40.742216
+        ]
+      },
+      "properties": {
+        "stop_id": "720S",
+        "stop_name": "Hunters Point Av",
+        "lines": [
+          "7X"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.953581,
+          40.742626
+        ]
+      },
+      "properties": {
+        "stop_id": "721S",
+        "stop_name": "Vernon Blvd-Jackson Av",
+        "lines": [
+          "7X"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.976041,
+          40.751431
+        ]
+      },
+      "properties": {
+        "stop_id": "723S",
+        "stop_name": "Grand Central-42 St",
+        "lines": [
+          "7X"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.981963,
+          40.753821
+        ]
+      },
+      "properties": {
+        "stop_id": "724S",
+        "stop_name": "5 Av",
+        "lines": [
+          "7X"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987691,
+          40.755477
+        ]
+      },
+      "properties": {
+        "stop_id": "725S",
+        "stop_name": "Times Sq-42 St",
+        "lines": [
+          "7X"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.00191,
+          40.755882
+        ]
+      },
+      "properties": {
+        "stop_id": "726S",
+        "stop_name": "34 St-Hudson Yards",
+        "lines": [
+          "7X"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.00191,
+          40.755882
+        ]
+      },
+      "properties": {
+        "stop_id": "726N",
+        "stop_name": "34 St-Hudson Yards",
+        "lines": [
+          "7X"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987691,
+          40.755477
+        ]
+      },
+      "properties": {
+        "stop_id": "725N",
+        "stop_name": "Times Sq-42 St",
+        "lines": [
+          "7X"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.981963,
+          40.753821
+        ]
+      },
+      "properties": {
+        "stop_id": "724N",
+        "stop_name": "5 Av",
+        "lines": [
+          "7X"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.976041,
+          40.751431
+        ]
+      },
+      "properties": {
+        "stop_id": "723N",
+        "stop_name": "Grand Central-42 St",
+        "lines": [
+          "7X"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.953581,
+          40.742626
+        ]
+      },
+      "properties": {
+        "stop_id": "721N",
+        "stop_name": "Vernon Blvd-Jackson Av",
+        "lines": [
+          "7X"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.948916,
+          40.742216
+        ]
+      },
+      "properties": {
+        "stop_id": "720N",
+        "stop_name": "Hunters Point Av",
+        "lines": [
+          "7X"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.945264,
+          40.747023
+        ]
+      },
+      "properties": {
+        "stop_id": "719N",
+        "stop_name": "Court Sq",
+        "lines": [
+          "7X"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.940202,
+          40.750582
+        ]
+      },
+      "properties": {
+        "stop_id": "718N",
+        "stop_name": "Queensboro Plaza",
+        "lines": [
+          "7X"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.930997,
+          40.744587
+        ]
+      },
+      "properties": {
+        "stop_id": "716N",
+        "stop_name": "33 St-Rawson St",
+        "lines": [
+          "7X"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.924016,
+          40.743781
+        ]
+      },
+      "properties": {
+        "stop_id": "715N",
+        "stop_name": "40 St-Lowery St",
+        "lines": [
+          "7X"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.918435,
+          40.743132
+        ]
+      },
+      "properties": {
+        "stop_id": "714N",
+        "stop_name": "46 St-Bliss St",
+        "lines": [
+          "7X"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.912549,
+          40.744149
+        ]
+      },
+      "properties": {
+        "stop_id": "713N",
+        "stop_name": "52 St",
+        "lines": [
+          "7X"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.902984,
+          40.74563
+        ]
+      },
+      "properties": {
+        "stop_id": "712N",
+        "stop_name": "61 St-Woodside",
+        "lines": [
+          "7X"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.896403,
+          40.746325
+        ]
+      },
+      "properties": {
+        "stop_id": "711N",
+        "stop_name": "69 St",
+        "lines": [
+          "7X"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.891394,
+          40.746848
+        ]
+      },
+      "properties": {
+        "stop_id": "710N",
+        "stop_name": "74 St-Broadway",
+        "lines": [
+          "7X"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.869527,
+          40.749145
+        ]
+      },
+      "properties": {
+        "stop_id": "707N",
+        "stop_name": "Junction Blvd",
+        "lines": [
+          "7X"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.845625,
+          40.754622
+        ]
+      },
+      "properties": {
+        "stop_id": "702N",
+        "stop_name": "Mets-Willets Point",
+        "lines": [
+          "7X"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.83003,
+          40.7596
+        ]
+      },
+      "properties": {
+        "stop_id": "701N",
+        "stop_name": "Flushing-Main St",
+        "lines": [
+          "7X"
+        ]
+      }
+    }
+  ]
+}

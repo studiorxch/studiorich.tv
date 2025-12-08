@@ -1,0 +1,1312 @@
+- title: Tensil
+  slug: tensil
+  has_cover: true
+  has_loop: true
+  mood:
+    - Meditative
+    - Threaded
+    - Weightless
+    - Dreamy
+    - Textural
+    - Soft Tension
+  genre:
+    - lo-fi
+    - downtempo
+    - ambient
+  duration: "1:35"
+
+- title: Asphalt Runway
+  slug: asphalt-runway
+  has_cover: true
+  has_loop: true
+  mood:
+    - clinical
+    - anxious
+    - sleek
+    - mechanical
+    - hypnotic
+  genre:
+    - minimal
+    - electronic
+    - glitch
+    - lo-fi
+  duration: "3:09"
+
+- title: Before the Pocket S01
+  slug: before-the-pocket-s01
+  has_cover: true
+  has_loop: true
+  mood:
+    - glitchy
+    - analog
+    - nostalgic
+    - eerie
+    - mechanical
+    - lo-fi noir
+  genre:
+    - lo-fi
+    - glitch
+    - electronic
+  duration: "2:31"
+
+- title: Bottle Memory Error 03
+  slug: bottle-memory-error-03
+  has_cover: true
+  has_loop: true
+  mood:
+    - Glitched
+    - Eerie
+    - Hazy
+    - Liminal
+  genre:
+    - lo-fi
+    - glitch
+    - ambient
+  duration: "3:27"
+- title: Faint Return S01
+  slug: faint-return-s01
+  has_cover: true
+  has_loop: true
+  mood:
+    - Kinetic
+    - Hazy
+    - Bittersweet
+  genre:
+    - lo-fi
+    - jungle
+    - electronic
+  duration: "3:46"
+- title: The Elephant in The Room
+  slug: the-elephant-in-the-room
+  has_cover: true
+  has_loop: true
+  mood:
+    - Hypnotic
+    - Aggressive
+    - Gritty
+    - Cinematic
+    - Underground
+  genre:
+    - lo-fi
+    - electronic
+    - industrial
+  duration: "3:12"
+- title: Light Rewind S04
+  slug: light-rewind-s04
+  has_cover: true
+  has_loop: true
+  mood:
+    - Melancholy
+    - Dreamy
+    - Nostalgic
+  genre:
+    - lo-fi
+    - chillhop
+    - soul
+  duration: "2:27"
+- title: Cat on the Signal
+  slug: cat-on-the-signal
+  has_cover: true
+  has_loop: true
+  mood_suggested:
+    - Hypnotic
+    - Off-Kilter
+    - Gritty
+    - Surreal
+  genre:
+    - bedroom pop
+    - chillhop
+    - lo-fi
+- title: Chainlink Shuffle
+  slug: chainlink-shuffle
+  has_cover: true
+  has_loop: true
+  mood_suggested:
+    - Hypnotic
+    - Off-Kilter
+    - Gritty
+    - Surreal
+  genre:
+    - lo-fi
+    - experimental
+    - weirdcore
+    - accordion
+- title: Backwards Ventilation
+  slug: backwards-ventilation
+  has_cover: true
+  has_loop: true
+  mood:
+    - Gritty
+    - Chill
+    - Nostalgic
+  genre:
+    - boom bap
+    - hip hop
+    - instrumental
+- title: Roll Call S03
+  slug: roll-call-s03
+  has_cover: true
+  has_loop: true
+  mood:
+    - Melancholy
+  genre:
+    - lo-fi
+    - indie
+    - chill
+  duration: "1:24"
+- title: Fourth Period Fog S01
+  slug: fourth-period-fog-s01
+  has_cover: true
+  has_loop: true
+  mood: []
+  genre:
+    - lo-fi
+    - indie
+    - dream pop
+  duration: "2:23"
+- title: Fracture Point Break S01
+  slug: fracture-point-break-s01
+  has_cover: true
+  has_loop: true
+  mood:
+    - Aggressive
+  genre:
+    - lo-fi
+    - glitch-fusion
+    - experimental
+  duration: "2:09"
+- title: Fade Out Glow S03
+  slug: fade-out-glow-s03
+  has_cover: true
+  has_loop: true
+  mood:
+    - Melancholy
+    - Dreamy
+    - Nostalgic
+  genre:
+    - lo-fi
+    - downtempo
+    - chillhop
+  duration: "2:27"
+- title: Echoes Of Nostalgia
+  slug: echoes-of-nostalgia
+  has_cover: true
+  has_loop: true
+  mood:
+    - Aggressive
+  genre:
+    - lo-fi
+  duration: "4:00"
+- title: Skatepark Ruins
+  slug: skatepark-ruins
+  has_cover: true
+  has_loop: true
+  mood:
+    - Hopeful
+  genre:
+    - lo-fi
+    - experimental
+    - melancholic
+  duration: "1:54"
+- title: Quiet Frequencies
+  slug: quiet-frequencies
+  has_cover: true
+  has_loop: true
+  mood:
+    - Dreamy
+    - Nostalgic
+  genre:
+    - lo-fi
+    - synthwave
+    - soul
+  duration: "2:16"
+- title: Light Rewind S03
+  slug: light-rewind-s03
+  has_cover: true
+  has_loop: true
+  mood:
+    - Chill
+  genre:
+    - lo-fi
+    - chillhop
+    - soul
+  duration: "1:47"
+- title: Letters Left S01
+  slug: letters-left-s01
+  has_cover: true
+  has_loop: true
+  mood:
+    - Chill
+  genre:
+    - lo-fi
+    - indie
+    - bedroom pop
+  duration: "2:52"
+- title: Fracture Point Break S05
+  slug: fracture-point-break-s05
+  has_cover: true
+  has_loop: true
+  mood:
+    - Aggressive
+  genre:
+    - lo-fi
+    - glitch-fusion
+    - experimental
+  duration: "2:28"
+- title: Retro Pulse
+  slug: retro-pulse
+  has_cover: true
+  has_loop: true
+  mood:
+    - Dreamy
+    - Nostalgic
+  genre:
+    - lo-fi
+    - synthwave
+  duration: "3:21"
+- title: Brotherhood Beat S01
+  slug: brotherhood-beat-s01
+  has_cover: true
+  has_loop: true
+  mood:
+    - Dreamy
+    - Nostalgic
+  genre:
+    - lo-fi
+    - indie
+    - chill
+  duration: "2:03"
+- title: Echoes Of Time S01
+  slug: echoes-of-time-s01
+  has_cover: true
+  has_loop: true
+  mood:
+    - Tense
+  genre:
+    - ambient
+    - electronic
+    - experimental
+  duration: "3:00"
+- title: Fracture Point Break S04
+  slug: fracture-point-break-s04
+  has_cover: true
+  has_loop: true
+  mood:
+    - Dreamy
+    - Nostalgic
+  genre:
+    - lo-fi
+    - glitch-fusion
+  duration: "2:54"
+- title: Half-Light Memory
+  slug: half-light-memory
+  has_cover: true
+  has_loop: true
+  mood:
+    - Aggressive
+  genre:
+    - lo-fi
+    - ambient
+  duration: "2:44"
+- title: Turnaround Fade S01
+  slug: turnaround-fade-s01
+  has_cover: true
+  has_loop: true
+  mood: []
+  genre:
+    - lo-fi
+    - ambient
+    - chillwave
+  duration: "2:17"
+- title: Float Collapse S01
+  slug: float-collapse-s01
+  has_cover: true
+  has_loop: true
+  mood:
+    - Melancholy
+    - Dreamy
+    - Nostalgic
+  genre:
+    - lo-fi
+    - experimental
+    - ambient
+  duration: "1:54"
+- title: Prove It S02
+  slug: prove-it-s02
+  has_cover: true
+  has_loop: true
+  mood:
+    - Chill
+  genre:
+    - lo-fi
+    - jazz
+    - soul
+  duration: "1:50"
+- title: Roll Call S02
+  slug: roll-call-s02
+  has_cover: true
+  has_loop: true
+  mood:
+    - Melancholy
+    - Dreamy
+    - Nostalgic
+  genre:
+    - lo-fi hip hop
+    - jazz rap
+  duration: "2:02"
+- title: Prove It
+  slug: prove-it
+  has_cover: true
+  has_loop: true
+  mood:
+    - Chill
+  genre:
+    - lo-fi
+    - jazz
+    - soul
+  duration: "2:33"
+- title: Fade Out Glow S02
+  slug: fade-out-glow-s02
+  has_cover: true
+  has_loop: true
+  mood:
+    - Melancholy
+    - Dreamy
+    - Nostalgic
+  genre:
+    - lo-fi
+    - downtempo
+    - chillhop
+  duration: "1:59"
+- title: Midnight Shadows
+  slug: midnight-shadows
+  has_cover: true
+  has_loop: true
+  mood:
+    - Melancholy
+    - Dreamy
+    - Nostalgic
+  genre:
+    - lo-fi
+    - ambient
+    - downtempo
+  duration: "2:55"
+- title: Brotherhood Beat S04
+  slug: brotherhood-beat-s04
+  has_cover: true
+  has_loop: true
+  mood:
+    - Chill
+  genre:
+    - lo-fi
+    - chillhop
+    - instrumental
+  duration: "2:15"
+- title: Light Rewind S02
+  slug: light-rewind-s02
+  has_cover: true
+  has_loop: true
+  mood:
+    - Hopeful
+    - Playful
+  genre:
+    - lo-fi
+    - chillhop
+    - soul
+  duration: "1:35"
+- title: Soft Return
+  slug: soft-return
+  has_cover: true
+  has_loop: true
+  mood:
+    - Chill
+  genre:
+    - lo-fi
+    - ambient
+  duration: "2:30"
+- title: Lucas Loop S02
+  slug: lucas-loop-s02
+  has_cover: true
+  has_loop: true
+  mood:
+    - Melancholy
+  genre:
+    - lo-fi
+    - chillhop
+    - ambient
+  duration: "2:24"
+- title: Remote Ghost
+  slug: remote-ghost
+  has_cover: true
+  has_loop: true
+  mood:
+    - Aggressive
+  genre:
+    - lo-fi
+    - dream pop
+    - ambient
+  duration: "2:15"
+- title: No Signal
+  slug: no-signal
+  has_cover: true
+  has_loop: true
+  mood:
+    - Chill
+  genre:
+    - lo-fi
+    - experimental
+    - electronic
+  duration: "1:59"
+- title: Submerged Notes
+  slug: submerged-notes
+  has_cover: true
+  has_loop: true
+  mood: []
+  genre:
+    - lo-fi
+  duration: "2:09"
+- title: Muted Sunrise S01
+  slug: muted-sunrise-s01
+  has_cover: true
+  has_loop: true
+  mood: []
+  genre:
+    - lo-fi
+    - ambient
+  duration: "2:39"
+- title: Red Sky Break
+  slug: red-sky-break
+  has_cover: true
+  has_loop: true
+  mood:
+    - Melancholy
+  genre:
+    - lo-fi
+    - experimental
+    - ambient
+  duration: "2:05"
+- title: Blur Escape
+  slug: blur-escape
+  has_cover: true
+  has_loop: true
+  mood:
+    - Hopeful
+  genre:
+    - lo-fi
+    - experimental
+    - ambient
+  duration: "2:20"
+- title: Dreams In Rewind
+  slug: dreams-in-rewind
+  has_cover: true
+  has_loop: true
+  mood: []
+  genre:
+    - lo-fi
+  duration: "2:15"
+- title: Remote Ghost S01
+  slug: remote-ghost-s01
+  has_cover: true
+  has_loop: true
+  mood:
+    - Aggressive
+  genre:
+    - lo-fi
+    - dream pop
+    - ambient
+  duration: "2:15"
+- title: Cassette Gravity S01
+  slug: cassette-gravity-s01
+  has_cover: true
+  has_loop: true
+  mood:
+    - Melancholy
+  genre:
+    - lo-fi
+    - experimental
+    - ambient
+  duration: "2:27"
+- title: Backwards Bloom
+  slug: backwards-bloom
+  has_cover: true
+  has_loop: true
+  mood:
+    - Tense
+  genre:
+    - ambient
+    - electronic
+    - experimental
+  duration: "3:33"
+- title: Mood For Leaving
+  slug: mood-for-leaving
+  has_cover: true
+  has_loop: true
+  mood:
+    - Playful
+  genre:
+    - lo-fi
+  duration: "1:28"
+- title: Revival Of The Flame
+  slug: revival-of-the-flame
+  has_cover: true
+  has_loop: true
+  mood:
+    - Tense
+  genre:
+    - lo-fi
+  duration: "3:34"
+- title: Static Memory
+  slug: static-memory
+  has_cover: true
+  has_loop: true
+  mood:
+    - Chill
+  genre:
+    - lo-fi
+    - synthwave
+    - ambient
+  duration: "2:27"
+- title: Winning Shot S02
+  slug: winning-shot-s02
+  has_cover: true
+  has_loop: true
+  mood:
+    - Playful
+  genre:
+    - lo-fi
+    - hip-hop
+    - electronic
+  duration: "2:33"
+- title: Letters Left
+  slug: letters-left
+  has_cover: true
+  has_loop: true
+  mood:
+    - Chill
+  genre:
+    - lo-fi
+    - indie
+    - bedroom pop
+  duration: "2:52"
+- title: Lucas Loop S03
+  slug: lucas-loop-s03
+  has_cover: true
+  has_loop: true
+  mood: []
+  genre:
+    - lo-fi
+    - chillhop
+    - ambient
+  duration: "1:35"
+- title: Mind Drip
+  slug: mind-drip
+  has_cover: true
+  has_loop: true
+  mood: []
+  genre:
+    - lo-fi
+  duration: "1:38"
+- title: Tape From The Other Side
+  slug: tape-from-the-other-side
+  has_cover: true
+  has_loop: true
+  mood:
+    - Melancholy
+  genre:
+    - lo-fi
+    - synthwave
+    - 80s nostalgia
+  duration: "1:26"
+- title: Run Loop S01
+  slug: run-loop-s01
+  has_cover: true
+  has_loop: true
+  mood:
+    - Melancholy
+    - Dreamy
+    - Nostalgic
+  genre:
+    - lo-fi
+    - ambient
+    - swing
+  duration: "2:01"
+- title: Flicker At Dusk
+  slug: flicker-at-dusk
+  has_cover: true
+  has_loop: true
+  mood:
+    - Chill
+  genre:
+    - lo-fi
+  duration: "2:22"
+- title: Static Sleepwalker
+  slug: static-sleepwalker
+  has_cover: true
+  has_loop: true
+  mood:
+    - Energetic
+    - Aggressive
+  genre:
+    - lo-fi
+    - ambient
+    - downtempo
+  duration: "1:58"
+- title: Lo-Fi Defiance
+  slug: lo-fi-defiance
+  has_cover: true
+  has_loop: true
+  mood: []
+  genre:
+    - lo-fi
+    - ambient
+    - chillhop
+  duration: "2:18"
+- title: Blue Hoodie S01
+  slug: blue-hoodie-s01
+  has_cover: true
+  has_loop: true
+  mood:
+    - Melancholy
+  genre:
+    - lo-fi
+    - chillwave
+    - ambient
+  duration: "2:28"
+- title: Lucas Loop S04
+  slug: lucas-loop-s04
+  has_cover: true
+  has_loop: true
+  mood:
+    - Aggressive
+  genre:
+    - lo-fi
+    - chillhop
+    - ambient
+  duration: "3:02"
+- title: Muted Sunrise
+  slug: muted-sunrise
+  has_cover: true
+  has_loop: true
+  mood:
+    - Hopeful
+  genre:
+    - lo-fi
+    - ambient
+  duration: "2:39"
+- title: Last Scene In Shadows
+  slug: last-scene-in-shadows
+  has_cover: true
+  has_loop: true
+  mood:
+    - Melancholy
+  genre:
+    - lo-fi hip hop
+    - downtempo
+    - chillhop
+  duration: "2:47"
+- title: Solo Stand
+  slug: solo-stand
+  has_cover: true
+  has_loop: true
+  mood:
+    - Dreamy
+    - Nostalgic
+  genre:
+    - lo-fi
+    - chillhop
+    - cinematic
+  duration: "3:22"
+- title: Soft Entry
+  slug: soft-entry
+  has_cover: true
+  has_loop: true
+  mood:
+    - Hopeful
+    - Playful
+  genre:
+    - lo-fi
+  duration: "1:38"
+- title: Headphones In S01
+  slug: headphones-in-s01
+  has_cover: true
+  has_loop: true
+  mood:
+    - Hopeful
+  genre:
+    - lo-fi
+    - ambient
+    - chillwave
+  duration: "2:42"
+- title: Sleepwalking Home
+  slug: sleepwalking-home
+  has_cover: true
+  has_loop: true
+  mood:
+    - Aggressive
+  genre:
+    - lo-fi
+    - ambient
+    - chillhop
+  duration: "3:02"
+- title: Mirror Shard
+  slug: mirror-shard
+  has_cover: true
+  has_loop: true
+  mood:
+    - Dreamy
+    - Nostalgic
+  genre:
+    - lo-fi
+    - experimental
+    - ambient
+  duration: "2:25"
+- title: Midnight Court S02
+  slug: midnight-court-s02
+  has_cover: true
+  has_loop: true
+  mood:
+    - Chill
+  genre:
+    - lo-fi hip hop
+    - jazztronica
+    - chillout
+  duration: "2:36"
+- title: Mayfield (D-Minor)
+  slug: mayfield-d-minor
+  has_cover: true
+  has_loop: true
+  mood:
+    - Dreamy
+    - Nostalgic
+  genre:
+    - lo-fi
+  duration: "4:00"
+- title: Window Fade
+  slug: window-fade
+  has_cover: true
+  has_loop: true
+  mood:
+    - Chill
+  genre:
+    - lo-fi
+    - cinematic
+    - chill
+  duration: "1:41"
+- title: Cassette Gravity
+  slug: cassette-gravity
+  has_cover: true
+  has_loop: true
+  mood: []
+  genre:
+    - lo-fi
+    - experimental
+    - ambient
+  duration: "2:26"
+- title: Cherry Sparkles
+  slug: cherry-sparkles
+  has_cover: true
+  has_loop: true
+  mood:
+    - Melancholy
+    - Dreamy
+    - Nostalgic
+  genre:
+    - lo-fi
+  duration: "2:00"
+- title: California Sunspot S01
+  slug: california-sunspot-s01
+  has_cover: true
+  has_loop: true
+  mood:
+    - Playful
+  genre:
+    - lo-fi
+    - glitch
+    - electronic
+  duration: "2:24"
+- title: Headphones In
+  slug: headphones-in
+  has_cover: true
+  has_loop: true
+  mood:
+    - Hopeful
+  genre:
+    - lo-fi
+    - ambient
+    - chillwave
+  duration: "2:42"
+- title: Lucas Loop S01
+  slug: lucas-loop-s01
+  has_cover: true
+  has_loop: true
+  mood:
+    - Melancholy
+  genre:
+    - lo-fi
+    - chillhop
+    - ambient
+  duration: "2:14"
+- title: Nowhere Shortcut S01
+  slug: nowhere-shortcut-s01
+  has_cover: true
+  has_loop: true
+  mood:
+    - Dreamy
+  genre:
+    - lo-fi
+    - experimental
+  duration: "2:11"
+- title: A New Dawn
+  slug: a-new-dawn
+  has_cover: true
+  has_loop: true
+  mood:
+    - Chill
+  genre:
+    - lo-fi
+  duration: "3:09"
+- title: Forest Rhythms
+  slug: forest-rhythms
+  has_cover: true
+  has_loop: true
+  mood:
+    - Melancholy
+    - Dreamy
+    - Nostalgic
+  genre:
+    - lo-fi
+  duration: "1:38"
+- title: Red Sky Break S01
+  slug: red-sky-break-s01
+  has_cover: true
+  has_loop: true
+  mood:
+    - Aggressive
+  genre:
+    - lo-fi
+    - experimental
+    - ambient
+  duration: "2:07"
+- title: Mirror Shard S01
+  slug: mirror-shard-s01
+  has_cover: true
+  has_loop: true
+  mood:
+    - Dreamy
+    - Nostalgic
+  genre:
+    - lo-fi
+    - experimental
+    - ambient
+  duration: "2:11"
+- title: Run Loop
+  slug: run-loop
+  has_cover: true
+  has_loop: true
+  mood:
+    - Melancholy
+    - Dreamy
+    - Nostalgic
+  genre:
+    - lo-fi
+    - ambient
+    - swing
+  duration: "2:01"
+- title: Neon Crush
+  slug: neon-crush
+  has_cover: true
+  has_loop: true
+  mood:
+    - Chill
+  genre:
+    - lo-fi
+    - synthwave
+    - chillwave
+  duration: "3:32"
+- title: Skatepark Ruins S01
+  slug: skatepark-ruins-s01
+  has_cover: true
+  has_loop: true
+  mood:
+    - Hopeful
+  genre:
+    - lo-fi
+    - experimental
+    - melancholic
+  duration: "1:54"
+- title: Brotherhood Beat S03
+  slug: brotherhood-beat-s03
+  has_cover: true
+  has_loop: true
+  mood:
+    - Melancholy
+    - Dreamy
+    - Nostalgic
+  genre:
+    - lo-fi
+    - chillhop
+    - instrumental
+  duration: "2:16"
+- title: Empty Hall Echo
+  slug: empty-hall-echo
+  has_cover: true
+  has_loop: true
+  mood:
+    - Hopeful
+  genre:
+    - lo-fi
+    - ambient
+    - experimental
+  duration: "1:33"
+- title: Weightless In The Rain
+  slug: weightless-in-the-rain
+  has_cover: true
+  has_loop: true
+  mood:
+    - Energetic
+    - Aggressive
+  genre:
+    - lo-fi
+    - synthwave
+    - soul
+  duration: "2:12"
+- title: Echoes Of Time S03
+  slug: echoes-of-time-s03
+  has_cover: true
+  has_loop: true
+  mood:
+    - Tense
+  genre:
+    - ambient
+    - electronic
+    - experimental
+  duration: "3:33"
+- title: Fourth Period Fog
+  slug: fourth-period-fog
+  has_cover: true
+  has_loop: true
+  mood:
+    - Playful
+  genre:
+    - lo-fi
+    - indie
+    - dream pop
+  duration: "1:41"
+- title: Driveway Fadeout
+  slug: driveway-fadeout
+  has_cover: true
+  has_loop: true
+  mood:
+    - Chill
+  genre:
+    - lo-fi
+    - glitch
+    - electronic
+  duration: "1:31"
+- title: Roll Call S01
+  slug: roll-call-s01
+  has_cover: true
+  has_loop: true
+  mood:
+    - Dreamy
+    - Nostalgic
+  genre:
+    - lo-fi hip hop
+    - jazz rap
+  duration: "2:07"
+- title: Fracture Point Break S03
+  slug: fracture-point-break-s03
+  has_cover: true
+  has_loop: true
+  mood:
+    - Chill
+  genre:
+    - lo-fi
+    - glitch-fusion
+  duration: "2:11"
+- title: Fade Out Glow S01
+  slug: fade-out-glow-s01
+  has_cover: true
+  has_loop: true
+  mood:
+    - Chill
+  genre:
+    - lo-fi
+    - downtempo
+    - chillhop
+  duration: "1:50"
+- title: Winning Shot
+  slug: winning-shot
+  has_cover: true
+  has_loop: true
+  mood:
+    - Playful
+  genre:
+    - lo-fi
+    - hip-hop
+    - electronic
+  duration: "2:33"
+- title: Ghost Train To Hawkins
+  slug: ghost-train-to-hawkins
+  has_cover: true
+  has_loop: true
+  mood:
+    - Aggressive
+  genre:
+    - lo-fi hip hop
+    - downtempo
+    - chillhop
+  duration: "2:01"
+- title: Blue Hoodie
+  slug: blue-hoodie
+  has_cover: true
+  has_loop: true
+  mood:
+    - Melancholy
+  genre:
+    - lo-fi
+    - chillwave
+    - ambient
+  duration: "2:28"
+- title: Window Fade S01
+  slug: window-fade-s01
+  has_cover: true
+  has_loop: true
+  mood:
+    - Chill
+  genre:
+    - lo-fi
+    - cinematic
+    - chill
+  duration: "2:04"
+- title: Light Rewind S01
+  slug: light-rewind-s01
+  has_cover: true
+  has_loop: true
+  mood:
+    - Playful
+  genre:
+    - lo-fi
+    - chillhop
+    - soul
+  duration: "3:05"
+- title: No Signal S01
+  slug: no-signal-s01
+  has_cover: true
+  has_loop: true
+  mood:
+    - Chill
+  genre:
+    - lo-fi
+    - experimental
+    - electronic
+  duration: "1:59"
+- title: Nowhere Shortcut
+  slug: nowhere-shortcut
+  has_cover: true
+  has_loop: true
+  mood:
+    - Hopeful
+    - Playful
+  genre:
+    - lo-fi
+    - experimental
+  duration: "1:54"
+- title: California Sunspot
+  slug: california-sunspot
+  has_cover: true
+  has_loop: true
+  mood:
+    - Chill
+    - Weightless
+  genre:
+    - lo-fi
+    - glitch
+    - electronic
+  duration: "1:50"
+- title: Turnaround Fade
+  slug: turnaround-fade
+  has_cover: true
+  has_loop: true
+  mood: []
+  genre:
+    - lo-fi
+    - ambient
+    - chillwave
+  duration: "2:17"
+- title: Fracture Point Break S02
+  slug: fracture-point-break-s02
+  has_cover: true
+  has_loop: true
+  mood:
+    - Chill
+  genre:
+    - lo-fi
+    - glitch-fusion
+    - experimental
+  duration: "2:29"
+- title: Float Collapse
+  slug: float-collapse
+  has_cover: true
+  has_loop: true
+  mood:
+    - Melancholy
+    - Dreamy
+    - Nostalgic
+  genre:
+    - lo-fi
+    - experimental
+    - ambient
+  duration: "1:54"
+- title: Sidewalk Sunrise
+  slug: sidewalk-sunrise
+  has_cover: true
+  has_loop: true
+  mood:
+    - Energetic
+    - Aggressive
+  genre:
+    - lo-fi
+  duration: "2:20"
+- title: Piano Of Solitude
+  slug: piano-of-solitude
+  has_cover: true
+  has_loop: true
+  mood:
+    - Tense
+  genre:
+    - lo-fi
+  duration: "2:32"
+- title: Fracture Point Break S06
+  slug: fracture-point-break-s06
+  has_cover: true
+  has_loop: true
+  mood:
+    - Chill
+  genre:
+    - lo-fi
+    - glitch-fusion
+    - experimental
+  duration: "2:19"
+- title: Midnight Court
+  slug: midnight-court
+  has_cover: true
+  has_loop: true
+  mood:
+    - Chill
+  genre:
+    - lo-fi hip hop
+    - jazztronica
+    - chillout
+  duration: "2:36"
+- title: Roll Call S04
+  slug: roll-call-s04
+  has_cover: true
+  has_loop: true
+  mood:
+    - Melancholy
+    - Dreamy
+    - Nostalgic
+  genre:
+    - lo-fi
+    - indie
+    - chill
+  duration: "1:47"
+- title: Empty Hall Echo S01
+  slug: empty-hall-echo-s01
+  has_cover: true
+  has_loop: true
+  mood:
+    - Hopeful
+  genre:
+    - lo-fi
+    - ambient
+    - experimental
+  duration: "1:33"
+- title: Brotherhood Beat S02
+  slug: brotherhood-beat-s02
+  has_cover: true
+  has_loop: true
+  mood:
+    - Chill
+  genre:
+    - lo-fi
+    - indie
+    - chill
+  duration: "1:39"
+- title: Blur Escape S01
+  slug: blur-escape-s01
+  has_cover: true
+  has_loop: true
+  mood: []
+  genre:
+    - lo-fi
+    - experimental
+    - ambient
+  duration: "2:20"
+- title: Fade Out Glow S04
+  slug: fade-out-glow-s04
+  has_cover: true
+  has_loop: true
+  mood:
+    - Melancholy
+    - Dreamy
+    - Nostalgic
+  genre:
+    - lo-fi
+    - downtempo
+    - chillhop
+  duration: "2:25"
+- title: Cassette Crush
+  slug: cassette-crush
+  has_cover: true
+  has_loop: true
+  mood:
+    - Aggressive
+  genre:
+    - lo-fi
+  duration: "1:57"
+- title: Solo Stand S02
+  slug: solo-stand-s02
+  has_cover: true
+  has_loop: true
+  mood:
+    - Chill
+  genre:
+    - lo-fi
+    - chillhop
+    - cinematic
+  duration: "2:05"
+- title: Static Memory S01
+  slug: static-memory-s01
+  has_cover: true
+  has_loop: true
+  mood:
+    - Chill
+  genre:
+    - lo-fi
+    - synthwave
+    - ambient
+  duration: "2:27"
+- title: Driveway Fadeout S01
+  slug: driveway-fadeout-s01
+  has_cover: true
+  has_loop: true
+  mood:
+    - Chill
+  genre:
+    - lo-fi
+    - glitch
+    - electronic
+  duration: "1:31"
+
+- title: Mayfield (C-Minor)
+  slug: mayfield-c-minor
+  has_cover: true
+  has_loop: true
+  mood:
+    - Energetic
+    - Aggressive
+  genre:
+    - lo-fi
+  duration: "2:07"

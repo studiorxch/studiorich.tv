@@ -1,0 +1,17 @@
+---
+layout: default
+title: Tags
+permalink: /tag/
+---
+
+<div class="container-text">
+  <h1>Tags</h1>
+  <ul>
+    {% for tag in site.data.tags %}
+      <li>
+        <a href="/tag/{{ tag.name | slugify }}/">{{ tag.name }}</a>
+        <span>{{ tag.description }}</span>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

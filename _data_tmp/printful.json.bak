@@ -1,0 +1,19 @@
+      - name: Generate static product pages from data
+        run: |
+          mkdir -p _shop
+          jq -c '.[]' _data/printful.json | while read -r row; do
+            id=$(echo "$row" | jq -r '.id')
+            name=$(echo "$row" | jq -r '.name // .sync_product.name // "Untitled"')
+            thumb=$(echo "$row" | jq -r '.thumbnail_url // .thumbnail // .sync_product.thumbnail // empty')
+            cat > "_shop/${id}.md" <<EOF
+---
+layout: product
+title: "${name//\"/\\\"}"
+permalink: /shop/${id
+    }/
+product_id: ${id
+    }
+thumbnail: "${thumb}"
+---
+EOF
+          done

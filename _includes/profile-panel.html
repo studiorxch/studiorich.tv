@@ -1,0 +1,13 @@
+<div class="user-menu-dropdown" id="userMenuDropdown">
+  <h4>Settings</h4>
+  <label for="volumeControl">Volume</label>
+  <input id="volumeControl" type="range" min="0" max="100" value="70" />
+  <label for="themeSelect">Theme</label>
+  <select id="themeSelect">
+    <option value="light">Light</option>
+    <option value="dark">Dark</option>
+    <option value="system">System</option>
+  </select>
+  <hr />
+  {% include settings-panel.html %} {% include profile-panel.html %}
+</div>

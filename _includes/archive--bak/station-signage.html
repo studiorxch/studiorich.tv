@@ -1,0 +1,53 @@
+{%- comment -%}
+  Self-contained station signage.
+  - Auto-detects station_id, route, dir from current page.
+  - Safe to include anywhere; renders nothing if not on a station/panel page or if data missing.
+  - You can still override via include params if you ever need to:
+      {% include station-signage.html station_id="640" route="6" dir="N" %}
+{%- endcomment -%}
+
+{%- assign _is_stationish = page.layout == 'station' or page.layout == 'panel' -%}
+{%- unless _is_stationish -%}{% endunless %}
+
+{%- if _is_stationish -%}
+  {%- assign sid   = include.station_id | default: page.station_id | append:'' -%}
+  {%- assign st    = site.data.stations_index | where:'station_id', sid | first -%}
+  {%- assign lines = include.lines | default: st.routes | default: page.routes -%}
+  {%- assign route = include.route | default: page.route | default: lines | first -%}
+  {%- assign dir   = include.dir   | default: page.dir   | default:'N' -%}
+
+  {%- if sid and st and route and dir and site.data.track_nav and site.data.track_nav[route] and site.data.track_nav[route][dir] and site.data.track_nav[route][dir]['main'] -%}
+    {%- assign tn   = site.data.track_nav[route][dir]['main'] -%}
+    {%- assign prev = site.data.stations_index | where:'station_id', tn.prev[sid] | first -%}
+    {%- assign next = site.data.stations_index | where:'station_id', tn.next[sid] | first -%}
+
+<nav class="signage line-{{ route | downcase }}" aria-label="Station">
+      <a class="sgv sgv--chev{% unless prev %} is-disabled{% endunless %}"
+         href="{% if prev %}/stations/{{ prev.slug }}/{% else %}#{% endif %}"
+         aria-label="Previous station">‹</a>
+
+      <div class="sgv__center">
+        <div class="sgv__tokens over-photo" aria-label="Lines">
+          {%- for L in lines -%}
+           {% assign code = L | downcase %}
+            {% assign is_express = code contains 'x' %}
+
+            <span class="route-bullet line-{{ code }}{% if is_express %} is-diamond{% endif %}{% if is_current %} is-current{% endif %}">
+              <span class="rb__label">{{ L | upcase | replace: 'X','' }}</span>
+            </span>
+
+          {%- endfor -%}
+        </div>
+        <div class="sgv__meta">
+          <span class="sgv__name">{{ st.name }}</span>
+          <span class="sgv__dot">•</span>
+          <span class="sgv__dir">{{ dir }}</span>
+        </div>
+      </div>
+
+      <a class="sgv sgv--chev{% unless next %} is-disabled{% endunless %}"
+         href="{% if next %}/stations/{{ next.slug }}/{% else %}#{% endif %}"
+         aria-label="Next station">›</a>
+    </nav>
+  {%- endif -%}
+{%- endif -%}

@@ -1,0 +1,12 @@
+<section class="hero" style="background-image: url({{ include.image }});">
+  <div class="hero-overlay">
+    {% if include.kicker %}
+      <p class="hero-kicker">{{ include.kicker }}</p>
+    {% endif %}
+    <h1>{{ include.title }}</h1>
+    {% if include.subtitle %}
+      <p class="hero-subtitle">{{ include.subtitle }}</p>
+    {% endif %}
+  </div>
+</section>
+

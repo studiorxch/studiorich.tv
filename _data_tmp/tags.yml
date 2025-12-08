@@ -1,0 +1,27 @@
+# =====================================================
+#   StudioRich — Tag Directory (YAML-driven system)
+# =====================================================
+# Each tag includes a name and short description.
+# These power the /tag/ index and per-tag pages dynamically.
+# Add new tags anytime — no rebuild scripts or Ruby plugins needed.
+
+- name: lo-fi
+  description: Dreamy beats, tape warmth, and analog drift.
+
+- name: ambient
+  description: Slow-drift atmospheres, reverb clouds, and meditative texture.
+
+- name: chillhop
+  description: Warm grooves and jazzy low-end — classic study & chill energy.
+
+- name: nostalgia
+  description: Echoes of VHS fuzz, childhood tones, and distant TV glow.
+
+- name: crossovers
+  description: Hybrid genres where ambient meets hip-hop and electronica.
+
+- name: visual-beat-loop
+  description: Motion-synced loops — audio and visual rhythms in harmony.
+
+- name: weird-internet
+  description: The surreal web — vaporwave, meme ghosts, and glitch dreams.

@@ -1,0 +1,238 @@
+<section class="map-hero">
+  <div class="map-svg" id="nyc-map">
+    <svg viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+      <g id="map-transform" transform="translate(300,300) scale(1.6) rotate(-42) translate(-300,-300)">
+        <!-- Base frame circle -->
+        <circle
+          id="map-frame"
+          cx="300"
+          cy="300"
+          r="295"
+          fill="var(--color-map-bg)"
+          stroke="var(--map-border, #555)"
+          stroke-width="2"
+          vector-effect="non-scaling-stroke"
+          pointer-events="none"
+        />
+      </g>
+    </svg>
+  </div>
+</section>
+
+<script>
+document.addEventListener("DOMContentLoaded", async () => {
+  const svg = document.querySelector("#nyc-map svg");
+  const mapGroup = document.querySelector("#map-transform");
+  const tooltip = createTooltip();
+
+  const routeIds = [
+    "1","2","3","4","5","5x","6","6x","7","7x",
+    "a","b","c","d","e","f","fx","g","j","l","m",
+    "n","q","r","s","sir","w","z"
+  ];
+
+  // =====================
+  // PAN + ZOOM CONTROLS
+  // =====================
+  let isPanning = false;
+  let startX, startY;
+  let viewBox = { x: 0, y: 0, w: 600, h: 600 };
+  const zoomFactor = 1.2;
+
+  svg.addEventListener("mousedown", e => {
+    isPanning = true;
+    startX = e.clientX;
+    startY = e.clientY;
+  });
+  window.addEventListener("mouseup", () => (isPanning = false));
+  window.addEventListener("mousemove", e => {
+    if (!isPanning) return;
+    const dx = (e.clientX - startX) * (viewBox.w / svg.clientWidth);
+    const dy = (e.clientY - startY) * (viewBox.h / svg.clientHeight);
+    viewBox.x -= dx;
+    viewBox.y -= dy;
+    svg.setAttribute("viewBox", `${viewBox.x} ${viewBox.y} ${viewBox.w} ${viewBox.h}`);
+    startX = e.clientX;
+    startY = e.clientY;
+  });
+
+  svg.addEventListener("wheel", e => {
+    e.preventDefault();
+    const scale = e.deltaY < 0 ? 1 / zoomFactor : zoomFactor;
+    viewBox.w *= scale;
+    viewBox.h *= scale;
+    svg.setAttribute("viewBox", `${viewBox.x} ${viewBox.y} ${viewBox.w} ${viewBox.h}`);
+    updateStationScale();
+  });
+
+
+
+  // =====================
+  // LOAD BOROUGH LAYER
+  // =====================
+  try {
+    const bRes = await fetch("/assets/data/subway/boroughs.geojson");
+    if (bRes.ok) {
+      const bData = await bRes.json();
+      bData.features.forEach(f => {
+        const coords = f.geometry.coordinates[0].map(([lon, lat]) => project(lon, lat));
+        const d = "M" + coords.map(([x, y]) => `${x},${y}`).join(" L ") + " Z";
+        const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+        path.setAttribute("d", d);
+        path.setAttribute("fill", "rgba(200,200,200,0.05)");
+        path.setAttribute("stroke", "rgba(255,255,255,0.15)");
+        mapGroup.appendChild(path);
+      });
+    }
+  } catch (err) {
+    console.warn("Boroughs failed:", err);
+  }
+
+// =====================
+// LOAD & DRAW LINES (Safe Geometry Parser)
+// =====================
+for (const id of routeIds) {
+  try {
+    const res = await fetch(`/assets/data/subway/${id}-line.geojson`);
+    if (!res.ok) continue;
+    const data = await res.json();
+
+    data.features.forEach(f => {
+      const geom = f.geometry;
+      if (!geom || !geom.coordinates) return;
+
+      // Normalize all geometry types into an array of coordinate arrays
+      let segments = [];
+      if (geom.type === "LineString") {
+        segments = [geom.coordinates];
+      } else if (geom.type === "MultiLineString") {
+        segments = geom.coordinates;
+      } else if (geom.type === "Polygon") {
+        segments = geom.coordinates; // outer ring, optional
+      } else {
+        // skip unsupported geometry types like Point or invalid data
+        return;
+      }
+
+      // Draw each segment
+      segments.forEach(segment => {
+        if (!Array.isArray(segment) || segment.length < 2) return;
+        const coords = segment
+          .filter(p => Array.isArray(p) && p.length === 2)
+          .map(([lon, lat]) => project(lon, lat));
+
+        if (coords.length < 2) return;
+        const d = "M" + coords.map(([x, y]) => `${x},${y}`).join(" L ");
+        const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+        path.setAttribute("d", d);
+        path.setAttribute("fill", "none");
+        path.setAttribute("stroke", `var(--color-line-${id.toLowerCase()}, #555)`);
+        path.setAttribute("stroke-width", "2");
+        path.style.pointerEvents = "none";
+        mapGroup.appendChild(path);
+      });
+    });
+  } catch (err) {
+    console.warn(`Route ${id} failed:`, err);
+  }
+}
+
+
+  // =====================
+  // LOAD & DRAW STATIONS
+  // =====================
+  const stationRes = await fetch("/assets/data/subway/stations.geojson");
+  const stationData = await stationRes.json();
+
+  stationData.features.forEach(f => {
+    const [lon, lat] = f.geometry.coordinates;
+    const [cx, cy] = project(lon, lat);
+    const name = f.properties.stop_name;
+
+    const label = document.createElementNS("http://www.w3.org/2000/svg", "text");
+    label.setAttribute("x", cx + 3);
+    label.setAttribute("y", cy - 3);
+    label.setAttribute("font-size", "4px");
+    label.setAttribute("fill", "#999");
+    label.textContent = name;
+    mapGroup.appendChild(label);
+
+    const circle = document.createElementNS("http://www.w3.org/2000/svg", "circle");
+    circle.setAttribute("cx", cx);
+    circle.setAttribute("cy", cy);
+    circle.setAttribute("r", 2);
+    circle.setAttribute("fill", "#fff");
+    circle.setAttribute("stroke", "none");
+    circle.setAttribute("opacity", "0.9");
+    mapGroup.appendChild(circle);
+
+    circle.addEventListener("mouseenter", () => showTooltip(tooltip, name, cx, cy, svg));
+    circle.addEventListener("mouseleave", () => hideTooltip(tooltip));
+  });
+
+    circle.addEventListener("click", () => {
+    const slug = name.toLowerCase().replace(/[^a-z0-9]+/g, "-");
+    window.location.href = `/stations/${slug}/`;
+  });
+
+  // =====================
+  // PROJECTION FUNCTION
+  // =====================
+  function project(lon, lat) {
+    const minLon = -74.14, maxLon = -73.84;
+    const minLat = 40.55, maxLat = 40.93;
+    const width = 600, height = 600;
+    const x = ((lon - minLon) / (maxLon - minLon)) * width;
+    const y = height - ((lat - minLat) / (maxLat - minLat)) * height;
+    return [x, y];
+  }
+
+  // =====================
+  // TOOLTIP HELPERS
+  // =====================
+  function createTooltip() {
+    const tip = document.createElement("div");
+    tip.className = "map-tooltip";
+    document.body.appendChild(tip);
+    return tip;
+  }
+
+  function showTooltip(el, text, cx, cy, svg) {
+    el.textContent = text;
+    el.style.display = "block";
+    const { x, y } = svg.getBoundingClientRect();
+    el.style.left = `${x + cx}px`;
+    el.style.top = `${y + cy}px`;
+  }
+
+  function hideTooltip(el) {
+    el.style.display = "none";
+  }
+
+  function updateStationScale() {
+    const scale = 600 / viewBox.w;
+    mapGroup.querySelectorAll("circle").forEach(c => c.setAttribute("r", 2 / scale));
+    mapGroup.querySelectorAll("text").forEach(t => t.setAttribute("font-size", `${4 / scale}px`));
+  }
+
+  // =====================
+  // BOROUGH FOCUS
+  // =====================
+  const boroughs = {
+    manhattan: { x: 250, y: 250, w: 200, h: 200 },
+    brooklyn: { x: 260, y: 330, w: 250, h: 250 },
+    queens: { x: 360, y: 260, w: 250, h: 250 },
+    bronx: { x: 240, y: 140, w: 220, h: 220 },
+    staten: { x: 140, y: 420, w: 300, h: 300 }
+  };
+
+  window.focusBorough = name => {
+    const b = boroughs[name];
+    if (!b) return;
+    viewBox = { x: b.x, y: b.y, w: b.w, h: b.h };
+    svg.setAttribute("viewBox", `${b.x} ${b.y} ${b.w} ${b.h}`);
+    updateStationScale();
+  };
+});
+</script>
+

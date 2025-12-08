@@ -1,0 +1,1467 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.887138,
+          40.873244
+        ]
+      },
+      "properties": {
+        "stop_id": "D03S",
+        "stop_name": "Bedford Park Blvd",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.893509,
+          40.866978
+        ]
+      },
+      "properties": {
+        "stop_id": "D04S",
+        "stop_name": "Kingsbridge Rd",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.897749,
+          40.861296
+        ]
+      },
+      "properties": {
+        "stop_id": "D05S",
+        "stop_name": "Fordham Rd",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.900741,
+          40.856093
+        ]
+      },
+      "properties": {
+        "stop_id": "D06S",
+        "stop_name": "182-183 Sts",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.905227,
+          40.85041
+        ]
+      },
+      "properties": {
+        "stop_id": "D07S",
+        "stop_name": "Tremont Av",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.910136,
+          40.8459
+        ]
+      },
+      "properties": {
+        "stop_id": "D08S",
+        "stop_name": "174-175 Sts",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9134,
+          40.839306
+        ]
+      },
+      "properties": {
+        "stop_id": "D09S",
+        "stop_name": "170 St",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.91844,
+          40.833771
+        ]
+      },
+      "properties": {
+        "stop_id": "D10S",
+        "stop_name": "167 St",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.925651,
+          40.827905
+        ]
+      },
+      "properties": {
+        "stop_id": "D11S",
+        "stop_name": "161 St-Yankee Stadium",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.938209,
+          40.830135
+        ]
+      },
+      "properties": {
+        "stop_id": "D12S",
+        "stop_name": "155 St",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944216,
+          40.824783
+        ]
+      },
+      "properties": {
+        "stop_id": "D13S",
+        "stop_name": "145 St",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.947649,
+          40.817894
+        ]
+      },
+      "properties": {
+        "stop_id": "A14S",
+        "stop_name": "135 St",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.952343,
+          40.811109
+        ]
+      },
+      "properties": {
+        "stop_id": "A15S",
+        "stop_name": "125 St",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.954882,
+          40.805085
+        ]
+      },
+      "properties": {
+        "stop_id": "A16S",
+        "stop_name": "116 St",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.958161,
+          40.800603
+        ]
+      },
+      "properties": {
+        "stop_id": "A17S",
+        "stop_name": "Cathedral Pkwy (110 St)",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.961454,
+          40.796092
+        ]
+      },
+      "properties": {
+        "stop_id": "A18S",
+        "stop_name": "103 St",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.964696,
+          40.791642
+        ]
+      },
+      "properties": {
+        "stop_id": "A19S",
+        "stop_name": "96 St",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.968916,
+          40.785868
+        ]
+      },
+      "properties": {
+        "stop_id": "A20S",
+        "stop_name": "86 St",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.972143,
+          40.781433
+        ]
+      },
+      "properties": {
+        "stop_id": "A21S",
+        "stop_name": "81 St-Museum of Natural History",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97641,
+          40.775594
+        ]
+      },
+      "properties": {
+        "stop_id": "A22S",
+        "stop_name": "72 St",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.981736,
+          40.768296
+        ]
+      },
+      "properties": {
+        "stop_id": "A24S",
+        "stop_name": "59 St-Columbus Circle",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.981637,
+          40.762862
+        ]
+      },
+      "properties": {
+        "stop_id": "D14S",
+        "stop_name": "7 Av",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.981329,
+          40.758663
+        ]
+      },
+      "properties": {
+        "stop_id": "D15S",
+        "stop_name": "47-50 Sts-Rockefeller Ctr",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.984569,
+          40.754222
+        ]
+      },
+      "properties": {
+        "stop_id": "D16S",
+        "stop_name": "42 St-Bryant Pk",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987823,
+          40.749719
+        ]
+      },
+      "properties": {
+        "stop_id": "D17S",
+        "stop_name": "34 St-Herald Sq",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.000495,
+          40.732338
+        ]
+      },
+      "properties": {
+        "stop_id": "D20S",
+        "stop_name": "W 4 St-Wash Sq",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.996204,
+          40.725297
+        ]
+      },
+      "properties": {
+        "stop_id": "D21S",
+        "stop_name": "Broadway-Lafayette St",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.993753,
+          40.718267
+        ]
+      },
+      "properties": {
+        "stop_id": "D22S",
+        "stop_name": "Grand St",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.981824,
+          40.690635
+        ]
+      },
+      "properties": {
+        "stop_id": "R30S",
+        "stop_name": "DeKalb Av",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97689,
+          40.68446
+        ]
+      },
+      "properties": {
+        "stop_id": "D24S",
+        "stop_name": "Atlantic Av-Barclays Ctr",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.972367,
+          40.67705
+        ]
+      },
+      "properties": {
+        "stop_id": "D25S",
+        "stop_name": "7 Av",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.962246,
+          40.661614
+        ]
+      },
+      "properties": {
+        "stop_id": "D26S",
+        "stop_name": "Prospect Park",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.961495,
+          40.655292
+        ]
+      },
+      "properties": {
+        "stop_id": "D27S",
+        "stop_name": "Parkside Av",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.962982,
+          40.650527
+        ]
+      },
+      "properties": {
+        "stop_id": "D28S",
+        "stop_name": "Church Av",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.964492,
+          40.644031
+        ]
+      },
+      "properties": {
+        "stop_id": "D29S",
+        "stop_name": "Beverley Rd",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.963891,
+          40.640927
+        ]
+      },
+      "properties": {
+        "stop_id": "D30S",
+        "stop_name": "Cortelyou Rd",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.962793,
+          40.635082
+        ]
+      },
+      "properties": {
+        "stop_id": "D31S",
+        "stop_name": "Newkirk Plaza",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.961639,
+          40.62927
+        ]
+      },
+      "properties": {
+        "stop_id": "D32S",
+        "stop_name": "Avenue H",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.960803,
+          40.625039
+        ]
+      },
+      "properties": {
+        "stop_id": "D33S",
+        "stop_name": "Avenue J",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.959399,
+          40.617618
+        ]
+      },
+      "properties": {
+        "stop_id": "D34S",
+        "stop_name": "Avenue M",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.957734,
+          40.60867
+        ]
+      },
+      "properties": {
+        "stop_id": "D35S",
+        "stop_name": "Kings Hwy",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.954155,
+          40.586896
+        ]
+      },
+      "properties": {
+        "stop_id": "D39S",
+        "stop_name": "Sheepshead Bay",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.961376,
+          40.577621
+        ]
+      },
+      "properties": {
+        "stop_id": "D40S",
+        "stop_name": "Brighton Beach",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.961376,
+          40.577621
+        ]
+      },
+      "properties": {
+        "stop_id": "D40N",
+        "stop_name": "Brighton Beach",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.954155,
+          40.586896
+        ]
+      },
+      "properties": {
+        "stop_id": "D39N",
+        "stop_name": "Sheepshead Bay",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.957734,
+          40.60867
+        ]
+      },
+      "properties": {
+        "stop_id": "D35N",
+        "stop_name": "Kings Hwy",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.959399,
+          40.617618
+        ]
+      },
+      "properties": {
+        "stop_id": "D34N",
+        "stop_name": "Avenue M",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.960803,
+          40.625039
+        ]
+      },
+      "properties": {
+        "stop_id": "D33N",
+        "stop_name": "Avenue J",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.961639,
+          40.62927
+        ]
+      },
+      "properties": {
+        "stop_id": "D32N",
+        "stop_name": "Avenue H",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.962793,
+          40.635082
+        ]
+      },
+      "properties": {
+        "stop_id": "D31N",
+        "stop_name": "Newkirk Plaza",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.963891,
+          40.640927
+        ]
+      },
+      "properties": {
+        "stop_id": "D30N",
+        "stop_name": "Cortelyou Rd",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.964492,
+          40.644031
+        ]
+      },
+      "properties": {
+        "stop_id": "D29N",
+        "stop_name": "Beverley Rd",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.962982,
+          40.650527
+        ]
+      },
+      "properties": {
+        "stop_id": "D28N",
+        "stop_name": "Church Av",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.961495,
+          40.655292
+        ]
+      },
+      "properties": {
+        "stop_id": "D27N",
+        "stop_name": "Parkside Av",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.962246,
+          40.661614
+        ]
+      },
+      "properties": {
+        "stop_id": "D26N",
+        "stop_name": "Prospect Park",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.972367,
+          40.67705
+        ]
+      },
+      "properties": {
+        "stop_id": "D25N",
+        "stop_name": "7 Av",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97689,
+          40.68446
+        ]
+      },
+      "properties": {
+        "stop_id": "D24N",
+        "stop_name": "Atlantic Av-Barclays Ctr",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.981824,
+          40.690635
+        ]
+      },
+      "properties": {
+        "stop_id": "R30N",
+        "stop_name": "DeKalb Av",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.993753,
+          40.718267
+        ]
+      },
+      "properties": {
+        "stop_id": "D22N",
+        "stop_name": "Grand St",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.996204,
+          40.725297
+        ]
+      },
+      "properties": {
+        "stop_id": "D21N",
+        "stop_name": "Broadway-Lafayette St",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.000495,
+          40.732338
+        ]
+      },
+      "properties": {
+        "stop_id": "D20N",
+        "stop_name": "W 4 St-Wash Sq",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.987823,
+          40.749719
+        ]
+      },
+      "properties": {
+        "stop_id": "D17N",
+        "stop_name": "34 St-Herald Sq",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.984569,
+          40.754222
+        ]
+      },
+      "properties": {
+        "stop_id": "D16N",
+        "stop_name": "42 St-Bryant Pk",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.981329,
+          40.758663
+        ]
+      },
+      "properties": {
+        "stop_id": "D15N",
+        "stop_name": "47-50 Sts-Rockefeller Ctr",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.981637,
+          40.762862
+        ]
+      },
+      "properties": {
+        "stop_id": "D14N",
+        "stop_name": "7 Av",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.981736,
+          40.768296
+        ]
+      },
+      "properties": {
+        "stop_id": "A24N",
+        "stop_name": "59 St-Columbus Circle",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.97641,
+          40.775594
+        ]
+      },
+      "properties": {
+        "stop_id": "A22N",
+        "stop_name": "72 St",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.972143,
+          40.781433
+        ]
+      },
+      "properties": {
+        "stop_id": "A21N",
+        "stop_name": "81 St-Museum of Natural History",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.968916,
+          40.785868
+        ]
+      },
+      "properties": {
+        "stop_id": "A20N",
+        "stop_name": "86 St",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.964696,
+          40.791642
+        ]
+      },
+      "properties": {
+        "stop_id": "A19N",
+        "stop_name": "96 St",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.961454,
+          40.796092
+        ]
+      },
+      "properties": {
+        "stop_id": "A18N",
+        "stop_name": "103 St",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.958161,
+          40.800603
+        ]
+      },
+      "properties": {
+        "stop_id": "A17N",
+        "stop_name": "Cathedral Pkwy (110 St)",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.954882,
+          40.805085
+        ]
+      },
+      "properties": {
+        "stop_id": "A16N",
+        "stop_name": "116 St",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.952343,
+          40.811109
+        ]
+      },
+      "properties": {
+        "stop_id": "A15N",
+        "stop_name": "125 St",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.947649,
+          40.817894
+        ]
+      },
+      "properties": {
+        "stop_id": "A14N",
+        "stop_name": "135 St",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.944216,
+          40.824783
+        ]
+      },
+      "properties": {
+        "stop_id": "D13N",
+        "stop_name": "145 St",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.938209,
+          40.830135
+        ]
+      },
+      "properties": {
+        "stop_id": "D12N",
+        "stop_name": "155 St",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.925651,
+          40.827905
+        ]
+      },
+      "properties": {
+        "stop_id": "D11N",
+        "stop_name": "161 St-Yankee Stadium",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.91844,
+          40.833771
+        ]
+      },
+      "properties": {
+        "stop_id": "D10N",
+        "stop_name": "167 St",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9134,
+          40.839306
+        ]
+      },
+      "properties": {
+        "stop_id": "D09N",
+        "stop_name": "170 St",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.910136,
+          40.8459
+        ]
+      },
+      "properties": {
+        "stop_id": "D08N",
+        "stop_name": "174-175 Sts",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.905227,
+          40.85041
+        ]
+      },
+      "properties": {
+        "stop_id": "D07N",
+        "stop_name": "Tremont Av",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.900741,
+          40.856093
+        ]
+      },
+      "properties": {
+        "stop_id": "D06N",
+        "stop_name": "182-183 Sts",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.897749,
+          40.861296
+        ]
+      },
+      "properties": {
+        "stop_id": "D05N",
+        "stop_name": "Fordham Rd",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.893509,
+          40.866978
+        ]
+      },
+      "properties": {
+        "stop_id": "D04N",
+        "stop_name": "Kingsbridge Rd",
+        "lines": [
+          "B"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.887138,
+          40.873244
+        ]
+      },
+      "properties": {
+        "stop_id": "D03N",
+        "stop_name": "Bedford Park Blvd",
+        "lines": [
+          "B"
+        ]
+      }
+    }
+  ]
+}

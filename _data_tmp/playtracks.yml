@@ -1,0 +1,16 @@
+- slug: echoes-under-the-arches
+  title: "Echoes Under the Arches"
+  url: "/assets/audio/playtracks/echoes-under-the-arches.mp3"
+  cover: "/assets/img/covers/default.webp"
+
+
+- slug: straight-to-canvas
+  title: "Straight to Canvas"
+  url: "/assets/audio/playtracks/straight-to-canvas.mp3"
+  cover: "/assets/img/covers/default.webp"
+
+
+- slug: t-shirt-in-transit
+  title: "T-Shirt in Transit"
+  url: "/assets/audio/playtracks/t-shirt-in-transit.mp3"
+  cover: "/assets/img/covers/default.webp"

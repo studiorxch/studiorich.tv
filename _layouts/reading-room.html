@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    {%- comment -%} Title logic {%- endcomment -%} {% if page.title == 'Home' %}
+    <title>{{ site.title }}</title>
+    {% else %}
+    <title>{{ page.title | default: site.title }} | {{ site.title }}</title>
+    {% endif %}
+
+    <meta
+      name="description"
+      content="{{ page.description | default: site.description }}"
+    />
+    <meta name="twitter:site" content="@studiorxch" />
+
+    {% if jekyll.environment == "production" %}
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+    {% endif %} {%- comment -%} Identity and social links {%- endcomment -%}
+    <link rel="me" href="https://richielau.com" />
+    <link rel="me" href="https://studiorich.shop" />
+    <link rel="me" href="https://trackstar.nyc" />
+    <link rel="me" href="https://audiomack.com/studiorich" />
+    <link rel="me" href="https://studiorich.bandcamp.com" />
+    <link
+      rel="me"
+      href="https://open.spotify.com/artist/55NPQkvFCSFrE7eZuzlzqT"
+    />
+    <link
+      rel="me"
+      href="https://music.apple.com/us/artist/studiorich/1785907828"
+    />
+    <link rel="me" href="https://soundcloud.com/studiorich" />
+    <link rel="me" href="https://www.youtube.com/@Studio-Rich" />
+
+    {%- comment -%} Open Graph / Twitter Cards {%- endcomment -%}
+    <meta
+      property="og:title"
+      content="{{ page.title | default: site.title }}"
+    />
+    <meta
+      property="og:description"
+      content="{{ page.description | default: site.description }}"
+    />
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+    <meta
+      property="og:image"
+      content="{{ site.url }}{{ page.image | default: '/assets/img/default-share.jpg' }}"
+    />
+    <meta property="og:type" content="website" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      property="twitter:title"
+      content="{{ page.title | default: site.title }}"
+    />
+    <meta
+      property="twitter:description"
+      content="{{ page.description | default: site.description }}"
+    />
+    <meta
+      name="twitter:image"
+      content="{{ site.url }}{{ page.image_jpg | default: page.image | default: '/assets/img/default-share.jpg' }}"
+    />
+
+    {%- comment -%} Favicons {%- endcomment -%}
+    <link
+      rel="icon"
+      href="{{ '/assets/img/logos/favicon.ico' | relative_url }}"
+      type="image/x-icon"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="{{ '/assets/img/logos/apple-touch-icon.png' | relative_url }}"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="{{ '/assets/img/logos/favicon-32x32.png' | relative_url }}"
+    />
+
+    {%- comment -%} Structured Data {%- endcomment -%}
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": {{ page.title | jsonify }},
+        "url": "{{ site.url }}{{ page.url }}",
+        "description": {{ page.description | default: site.description | jsonify }}
+      }
+    </script>
+
+    {% if jekyll.environment == "production" and site.google_analytics %} {%
+    include google-analytics.html %} {% endif %} {% if page.version %}
+    <meta name="page-version" content="{{ page.version }}" />
+    {% endif %}
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=IBM+Plex+Mono:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    {{ content }}
+  </body>
+</html>

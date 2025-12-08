@@ -1,0 +1,13 @@
+<main class="panel-wrap" data-station="{{ page.station_id }}" data-panel="{{ page.panel_id }}">
+  <figure>
+    <img
+      src="{{ page.image_base }}-1280.webp"
+      srcset="{{ page.image_base }}-512.webp 512w, {{ page.image_base }}-1280.webp 1280w, {{ page.image_base }}-1920.webp 1920w"
+      sizes="(min-width: 900px) 80vw, 100vw"
+      alt="{{ page.title | escape }}"
+      loading="eager" />
+    {% if page.description %}
+    <figcaption>{{ page.description }}</figcaption>
+    {% endif %}
+  </figure>
+</main>

@@ -1,0 +1,20 @@
+
+
+
+
+<h1>StudioRich Lookbook</h1>
+<div class="grid">
+  {% for product in site.shop %}
+    <div class="product-card">
+      <a href="{{ product.url }}">
+        <div class="cover-frame">
+        {{ product.title }}
+        </div>
+
+        <h3>{{ product.title }}</h3>
+        <p class="price">{{ product.price | prepend: "$" }}</p>
+      </a>
+    </div>
+  {% endfor %}
+</div>
+

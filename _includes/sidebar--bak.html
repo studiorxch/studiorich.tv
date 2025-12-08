@@ -1,0 +1,60 @@
+<!-- /_includes/sidebar.html -->
+<nav class="left-nav">
+  <div class="nav-top">
+
+    <!-- Eyedropper trigger -->
+<button id="moodDropper" title="Pick a color" class="sidebar-btn"><img src="/assets/ui/eye.svg" alt="Eye" /></button>
+<a href="/lab/color-lab/color-wheel.html" alt="Home"><img src="/assets/ui/one-eyed-monster.svg" alt="Eye Dropper" /></a>
+
+    <!--<a href="/" alt="Home"><img src="/assets/ui/house.svg" alt="Home" /></a>-->
+    <!--<a href="/library/" alt="Library"><img src="/assets/ui/musicnote.svg" alt="Library" /></a>-->
+    <!--<a href="/playground/" alt="Playground"><img src="/assets/ui/rainbow.svg" alt="Playground" /></a>-->
+    <!--<a href="/map/" alt="Map"><img src="/assets/ui/cursor.svg" alt="Map" /></a>-->
+    <!--<a href="/blog/" alt="Blog"><img src="/assets/ui/blog.svg" alt="Blog" /></a>-->
+  </div>
+
+ <div class="nav-bottom">
+  <!-- ⚙️ Unified Control Hub -->
+  <div class="user-menu">
+    <button id="userMenuToggle" aria-label="User menu" class="user-avatar">
+      <span id="userBadge" class="user-badge" style="display:none;">●</span>
+
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+        <circle cx="12" cy="7" r="4" stroke="currentColor" stroke-width="2"/>
+        <path d="M4 21c0-4 4-6 8-6s8 2 8 6" stroke="currentColor" stroke-width="2"/>
+      </svg>
+    </button>
+
+    <div class="user-menu-dropdown" id="userMenuDropdown">
+      <h4>Settings</h4>
+
+      <!-- 🔊 Volume Placeholder -->
+      <label for="volumeControl">Volume</label>
+      <input id="volumeControl" type="range" min="0" max="100" value="70" />
+
+      <!-- 🌗 Theme Selector -->
+      <label for="themeSelect">Theme</label>
+      <select id="themeSelect">
+        <option value="light">Light</option>
+        <option value="dark">Dark</option>
+        <option value="system">System</option>
+      </select>
+
+      <hr />
+      <div class="auth-panel">
+      {% include settings-panel.html %}
+        <label for="emailLogin">Sign In</label>
+        <input id="emailInput" type="email" placeholder="Enter your email" />
+        <button id="magicLinkBtn">Magic Link</button>
+        <div id="userInfo"></div>
+        <button id="signOutBtn" style="display:none;">Sign Out</button>
+        <div id="statusMsg" class="status-msg"></div>
+      </div>
+
+<button onclick="toast('🔥 Toast working!')">Test Toast</button>
+
+
+
+    </div>
+  </div>
+</nav>

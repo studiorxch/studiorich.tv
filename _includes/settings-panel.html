@@ -1,0 +1,38 @@
+<!-- _includes/settings-panel.html -->
+<section class="profile-panel">
+  <h4>Your Profile</h4>
+  <div class="avatar-block">
+    <div id="userAvatar" class="avatar"></div>
+    <p id="userEmail"></p>
+  </div>
+
+  <label>Name (optional)</label>
+  <input id="userName" type="text" placeholder="Enter your name" />
+
+  <label>Birthday (optional)</label>
+  <input id="userBirthday" type="date" />
+
+  <button id="saveProfileBtn">Save</button>
+</section>
+
+<script type="module">
+import { toast } from "/assets/js/user-settings.js";
+
+document.addEventListener("DOMContentLoaded", () => {
+  const nameInput = document.getElementById("userName");
+  const birthdayInput = document.getElementById("userBirthday");
+  const saveBtn = document.getElementById("saveProfileBtn");
+
+  // preload saved data
+  const savedName = localStorage.getItem("userName");
+  const savedBirthday = localStorage.getItem("userBirthday");
+  if (savedName) nameInput.value = savedName;
+  if (savedBirthday) birthdayInput.value = savedBirthday;
+
+  saveBtn.addEventListener("click", () => {
+    localStorage.setItem("userName", nameInput.value);
+    localStorage.setItem("userBirthday", birthdayInput.value);
+    toast("✅ Profile saved.");
+  });
+});
+</script>

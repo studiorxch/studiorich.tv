@@ -1,0 +1,28 @@
+{% assign full_url = site.url | append: page.url %}
+<div class="share-buttons">
+
+
+  <a href="https://www.threads.net/intent/post?text={{ page.title | uri_escape }} by StudioRich — {{ full_url | uri_escape }}" target="_blank" title="Share on Threads">
+    <img src="/assets/img/logos/threads.svg" alt="Threads" height="32">
+  </a>
+
+  <a href="https://bsky.app/intent/compose?text={{ page.title | uri_escape }} by StudioRich — {{ full_url | uri_escape }}" target="_blank" title="Share on Bluesky">
+    <img src="/assets/img/logos/bluesky.svg" alt="Bluesky" height="32">
+  </a>
+
+  <a href="https://x.com/intent/tweet?text={{ page.title | uri_escape }} by StudioRich&url={{ full_url | uri_escape }}" target="_blank" title="Share on X">
+    <img src="/assets/img/logos/x.svg" alt="X" height="32">
+  </a>
+
+  <a href="https://pinterest.com/pin/create/button/?url={{ full_url | uri_escape }}&media={{ site.url }}{{ page.image | uri_escape }}&description={{ page.description | uri_escape }}" target="_blank" title="Pin on Pinterest">
+    <img src="/assets/img/logos/pinterest.svg" alt="Pinterest" height="32">
+  </a>
+
+  <a href="mailto:?subject={{ page.title | uri_escape }} by StudioRich&body=Check out this {{ include.type | default: "post" }}: {{ full_url | uri_escape }}" target="_blank" title="Share via Email">
+    <img src="/assets/ui/email.svg" alt="Email" height="32">
+  </a>
+
+  <a href="sms:?&body=Check out {{ page.title | uri_escape }} by StudioRich — {{ full_url | uri_escape }}" target="_blank" title="Share via Messages">
+    <img src="/assets/ui/messages.svg" alt="Messages" height="32">
+  </a>
+</div>

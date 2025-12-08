@@ -1,0 +1,118 @@
+/* ===========================================================
+   FINAL STATIC SIDEBAR — logo fixed, underscores aligned
+   =========================================================== */
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 80px;
+  background: #0a0a0a;
+  border-right: 1px solid #222;
+  z-index: 1000;
+  overflow: hidden;
+  transition: width 0.3s ease;
+}
+
+.sidebar:hover {
+  width: 180px;
+}
+
+/* --- LOGO (absolute + centered) --- */
+.logo {
+  position: absolute;
+  top: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+
+  svg {
+    width: 48px;
+    height: 48px;
+    display: block;
+
+    .kitty-bg {
+      fill: #ff0000;
+    }
+    .kitty-figure {
+      fill: #ffffff;
+    }
+  }
+}
+
+/* --- NAVIGATION --- */
+.nav {
+  position: absolute;
+  top: 120px;
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  text-align: left;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #aaa;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 20px;
+  white-space: nowrap;
+
+  span {
+    opacity: 0;
+    transform: translateX(-10px);
+    transition:
+      opacity 0.2s ease,
+      transform 0.2s ease;
+  }
+
+  b {
+    color: #888;
+    font-weight: normal;
+    letter-spacing: 1px;
+    width: 10px;
+    text-align: right;
+  }
+
+  &:hover {
+    color: #fff;
+    background: #151515;
+  }
+}
+
+.sidebar:hover a span {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* --- PROFILE BUTTON --- */
+.bottom {
+  position: absolute;
+  bottom: 1rem;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.profile-btn {
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 6px;
+  border-radius: 50%;
+
+  &:hover {
+    background: #222;
+  }
+}

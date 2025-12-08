@@ -1,0 +1,8 @@
+<button
+  class="btn add-to-master"
+  data-add-playlist-ref="{{ include.ref }}"
+  data-label="{{ include.label | default: 'Add to Master' }}"
+  {% if include.mode %} data-mode="{{ include.mode }}"{% endif %}
+>
+  {{ include.text | default: '➕ Add to Master' }}
+</button>

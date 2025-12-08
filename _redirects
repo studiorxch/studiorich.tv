@@ -1,0 +1,104 @@
+# --- StudioRich Global Redirects ---
+
+# PWA /app support
+/app/*   /app/index.html   200
+
+# Handle Now Playing data for Studio
+/radio/nowplaying.json   /.netlify/functions/set-nowplaying   200
+
+# Tracks → Library
+/tracks/160-and-holding-s01/ /library 301
+/tracks/160-and-holding/ /library 301
+/tracks/above-the-loop-s01/ /library 301
+/tracks/above-the-loop/ /library 301
+/tracks/air-between-us-s01/ /library 301
+/tracks/air-between-us/ /library 301
+/tracks/window-glow/ /library 301
+
+# Stations → Home
+/stations/* / 301
+/stations / 301
+/stations.html / 301
+/_stations/ / 301
+/stations/index.html / 301
+
+# Shop → Goods Subdomain
+/shop https://goods.studiorich.shop 301
+/_shop/ https://goods.studiorich.shop 301
+/shop.html https://goods.studiorich.shop 301
+/comments https://goods.studiorich.shop 301
+/cdn/* https://goods.studiorich.shop 301
+/collections/* https://goods.studiorich.shop 301
+/products/* https://goods.studiorich.shop 301
+/refund-policy https://goods.studiorich.shop 301
+/policies/refund-policy https://goods.studiorich.shop 301
+/services/login_with_shop/authorize https://goods.studiorich.shop 301
+/terms https://goods.studiorich.shop 301
+/pages/faq https://goods.studiorich.shop 301
+/assets/ui/* https://goods.studiorich.shop 301
+/(a|apps|community|tools)/* https://goods.studiorich.shop 301
+
+# Schedule (Lo-Fi Sundays)
+/blogs/lo-fi-sundays /schedule/sunday 301
+/lo-fi-sundays-sweet-dreams /schedule/sunday 301
+/lo-fi-sundays /schedule/sunday 301
+/pages/lo-fi-sundays /schedule/sunday 301
+/pages/schedule /schedule/sunday 301
+/schedule /schedule/sunday 301
+
+# Links
+/pages/links/ /links 301
+
+# Legacy Pages → Home
+/stations / 301
+/_stations/ / 301
+/stations.html / 301
+/archive / 301
+/reading-room-2 / 301
+/reading-room-2.html / 301
+/reading-room-3 / 301
+/reading-room-3.html / 301
+/reading-room-old / 301
+/hollowbookco/reading-room / 301
+/readingroom / 301
+/reading-room-v1 / 301
+/reading-room-v2 / 301
+/visualizer--ghost/ / 301
+/dev-ghost/ / 301
+/albums--ghost/ / 301
+/playground-unpublished--ghost/ / 301
+/trash--ghost/ / 301
+/stations--bak/ / 301
+
+# Events
+/pages/events /events 301
+/events.html /events 301
+
+# Coming Soon
+/pages/tag-your-friend /coming-soon 301
+/pages/coming-soon /coming-soon 301
+/tracks/warped-honey/ /coming-soon 301
+/tracks/pulse-petals/ /coming-soon 301
+/tracks/voice-inside-static/ /coming-soon 301
+/tracks/midnight-bridge-run/ /coming-soon 301
+/tracks/air-between-us-s01/ /coming-soon 301
+/tracks/nothing-to-grab-onto/ /coming-soon 301
+/products/midnight-prowler-warning-crossbones-cat-graphic-tee-unisex-tee/ /coming-soon 301
+/tracks/backwards- /coming-soon 301
+/customer_authentication/login /coming-soon 301
+/games /coming-soon 301
+
+# Blog
+/blogs/news /blog 301
+/blog/news /blog 301
+/blogs/news?page=1 /blog 301
+/blogs/news/lofi-dreams-a-cinematic-vhs-jungle-experience /blog 301
+/blogs/news/soft-served-dreams-pre-release-now-available /blog 301
+/blogs/news/see-you-later-oscillator-early-access-now-on-bandcamp /blog 301
+/blogs/news/studiorich-debut-pre-release-access-to-see-you-later-oscillator /blog 301
+/blogs/studiorich-chronicles-snapshots-threads-from-the-nyc-streets/unearthing-the-ancestral-whiskers-felix-through-the-looking-glas /blog 301
+
+# About
+/origin/ /about 301
+/pages/about-us /about 301
+/pages/contact /about 301

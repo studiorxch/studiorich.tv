@@ -1,0 +1,42 @@
+# _data/featured.yml
+- eyebrow: Featured
+  title: Asphalt Runway
+  image: /assets/img/covers/asphalt-runway.webp
+  href:  /tracks/asphalt-runway/
+
+- eyebrow: From the Library
+  title: Tensil
+  image: /assets/img/covers/tensil.webp
+  href:  /tracks/tensil/
+
+- eyebrow: Shop
+  title: Melting Boombox Drops
+  image: /assets/img/hero/shop-hero.webp
+  href:  /shop/
+
+- eyebrow: Live Radio
+  title: Lo-Fi Signals
+  image: /assets/img/hero/live-radio.webp
+  href:  /live/
+
+- eyebrow: Featured
+  title: Asphalt Runway
+  image: /assets/img/covers/asphalt-runway.webp
+  href:  /releases/asphalt-runway/
+
+- eyebrow: From the Library
+  title: Tensil
+  image: /assets/img/covers/tensil.webp
+  href:  /tracks/tensil/
+
+- eyebrow: Shop
+  title: Melting Boombox Drops
+  image: /assets/img/hero/shop-hero.webp
+  href:  /shop/
+
+- eyebrow: Live Radio
+  title: Lo-Fi Signals
+  image: /assets/img/hero/live-radio.webp
+  href:  /live/
+
+

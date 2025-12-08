@@ -1,0 +1,83 @@
+---
+layout: default
+---
+
+{% include hero.html image=page.image title=page.title
+subtitle=page.subtitle kicker=page.kicker %}
+
+<article class="blog-post-container">
+  <div class="blog-layout">
+    <div class="blog-content">
+      <p class="blog-meta">
+        <a href="/blog/">StudioRich Blog</a> / {% if page.category %}
+        <a href="/category/{{ page.category | downcase | replace: ' ', '-' }}/"
+          >{{ page.category }}</a
+        >
+        / {% endif %} {{ page.date | date: "%B %d, %Y" }}
+      </p>
+
+      <!--tags-->
+      {% if page.tags %} {% assign linked_tags = "lofi, ambient, chillhop,
+      visual-beat-loop, nostalgia, weird-internet" | split: "," %}
+      <p class="blog-meta">
+        Tags: {% for tag in page.tags %} {% assign normalized = tag | downcase |
+        replace: ' ', '-' %} {% assign is_linkable = false %} {% for linked in
+        linked_tags %} {% if normalized == linked %} {% assign is_linkable =
+        true %} {% endif %} {% endfor %} {% if is_linkable %}
+        <a href="/tag/{{ normalized }}/" class="post-tag">{{ tag }}</a>
+        {% else %}
+        <span class="post-tag">{{ tag }}</span>
+        {% endif %} {% unless forloop.last %}, {% endunless %} {% endfor %}
+      </p>
+      {% endif %}
+      <!--tags-->
+
+      <div class="blog-body">{{ content }}</div>
+
+      <div class="related-posts">
+        <h3>
+          <img
+            src="/assets/ui/folder.svg"
+            alt="Folder icon"
+            class="icon-sm"
+          />Filed Under: {{ page.tags | join: ", " }}
+        </h3>
+        <p class="related-posts-label">Related Posts:</p>
+        <ul>
+          {% for post in site.posts %} {% if post != page and post.tags contains
+          page.tags[0] %}
+          <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+          {% endif %} {% endfor %}
+        </ul>
+      </div>
+
+      <footer class="blog-footer">
+        <div class="post-nav-cards">
+          {% if page.previous %}
+          <a href="{{ page.previous.url }}" class="nav-card prev">
+            <img
+              src="{{ page.previous.image }}"
+              alt="{{ page.previous.title }}"
+            />
+            <span>← {{ page.previous.title }}</span>
+          </a>
+          {% endif %} {% if page.next %}
+          <a href="{{ page.next.url }}" class="nav-card next">
+            <img src="{{ page.next.image }}" alt="{{ page.next.title }}" />
+            <span>{{ page.next.title }} →</span>
+          </a>
+          {% endif %}
+        </div>
+        <!--- share this -->
+        {% include share-buttons.html type="blog" %}
+        <!--- share this -->
+      </footer>
+    </div>
+
+    {% if page.image %}
+    <div class="blog-image">
+      <img src="{{ page.image }}" alt="{{ page.title }} cover" />
+    </div>
+    {% endif %}
+  </div>
+</article>

@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "blog-automator-468810",
+  "private_key_id": "e9ac2ca5c3074325a32656ed365ed5ea63406bdb",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCcijYrojBbkqDo\nP4SMvd9xVyi8TpCClEjkhpsXCl/H6yRkE+Lz2jgQsjd3chUfHfK7V2TNTpRiHdSD\nJEiiSpXdSMzv4cZdO2IrL+4LIHWUaU0XSDIHBmyv97+hlDHhXH3qksFpgJJ8WVyc\nO2bN6q2AQchGWifNiZ38PrC3U7Bh+69w7lzlB566lGw+Tzpi+e5UTjkl7VWaIuvX\nFmeoy4NqU9iCvAiM6RrwDF4xIOs1nAHN/W6aRu+mqDVJng8oghGFMHN067yz08B4\nC7mA2YiNJwvxIrCfMHyQq3kJLH7CTOK2v2Ajv6PvqokyqMkWMH1dk/t+lCdxzQi7\n4hk6Mw45AgMBAAECggEADdGVnpx0BbbCmuightwWvCakOJtRiSAV9IvSvQyeupiO\nCdec5/Hnk8cSZmpHuwt7FgFNALgNw+uQ4FLKUVP25CXnvCADfCTLMbd1cr4BeIHN\n2wmggPDsP0xw5OP0KJ9wQ3jZDLsw3eagP5puz4Fb95UsXNQwl1BYBfXIG9GOIdgL\n7oJvoteK8vxefW239QmryKc+dswA17OqZjKIs8sWpfavAuYY2vuzU/2yr/Ld5T+8\nv6oJCTvtRoKe8zZui4IfzXG4ORMCeiDDbiq0DH2RLTIPIqG8+jh/5prnvpW7u3/2\ntWrItcHnZLtdfmsvb8ltz1eSyf3c/7HuJav6xRgS0QKBgQDR84u6AHVeE4TzIjbg\n+QP+WaiuwS4EZNNJTBGM760J9ckqf7rMuQcaF3XAPEgKa5fW6ZV3kYFwk6lb46QX\nY3XOpV3jNaYW1SWGnUnk+W4NCRSuFJKaI80sbc0/tGiJfRr+PrmwznXv4+smZwhY\ndkWClIL8tAGFWJKoBNCxXpx7fwKBgQC+37EwJAhKc+D5lzfpbaolNkeItdJj3X82\nuh5U/FQ7sebLUtdp6u1Y1A8YEnSOTWVAdB/WFfHfBJqpd+kEIgB95KbypzRhf233\nHTbn24qAaJyWpdTXAANYMyVVLAyaLdgskIAD6jSmAVwMwPoJmPoDTmdV7HgCjZ97\nGwmZIlIyRwKBgAUHkpdYH3erfAnfDfWBwai8OSBGnHWafL1KxzjbHQgaDUGpYa45\n2IO1gCqkxw0I2tBZNC1zHOi3gN0krO+qgE39BCzHQj1VydpZtkV3/DzvtMEe2Qw8\nQ1QHJV2bUs3IY3cnxYcIyyZ+DUoUOcz0uGGScTjgjxDEuG6x/tXg8Fq9AoGBAK9h\n5vNvCFcw5pUvx2YrJ92NZGlPeAPe8BcfKOO5/sPjEUfd1KU0AeZO45egzYw7vT9d\n9CrIezgKiPoSff8YJw+GW4g27sBvUGFxbJPafAbFGKyrr0fmcSxHwpPiJ6o7WZiJ\nJbdzKfEm6qelYZoUABWtovGmmBbwfoulKkqU6KXdAoGATZMTqdjgVdLTDnw7dhH9\nJVliHApk/L0DEJWBYxFkDksgwyt4fBQReIyYEQZppIt3ltCHQNxG/CiviXG+Rvf7\n+Fx3BELcNXLpbkEOhULYdmIraS5RTD7Olza0wYkdq2ngt0kY5WqB3c7IE0mE7nU4\nIHYxGIkE8/KrliSrpvUplOw=\n-----END PRIVATE KEY-----\n",
+  "client_email": "richardjlau-gmail-com@blog-automator-468810.iam.gserviceaccount.com",
+  "client_id": "103265346964073001785",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/richardjlau-gmail-com%40blog-automator-468810.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

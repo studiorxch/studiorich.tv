@@ -1,0 +1,16 @@
+<!-- /_includes/station-desc.html --->
+{%- comment -%} Renders the station description block {%- endcomment -%}
+{%- assign sid = page.station_id | append: '' -%}
+{%- assign ov  = site.data.stations_overrides[sid] -%}
+{%- assign station_desc = include.desc | default: page.description | default: ov.description -%}
+
+{%- if station_desc and station_desc != '' -%}
+<section class="station-desc" aria-labelledby="about-station">
+  <h2 id="about-station" class="sr-only">About this station</h2>
+  <div class="lede">
+    {{ station_desc | markdownify }}
+  </div>
+</section>
+{%- endif -%}
+
+
