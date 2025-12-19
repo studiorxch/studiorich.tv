@@ -16,7 +16,7 @@ permalink: /
 
   <div id="info-layer">
     <div id="nowplaying-label">Now Playing</div>
-    <div id="track-title">...
+    <div id="track-title">“Live Lo-Fi broadcasts • Twitch & YouTube”
 </div>
   </div>
 
