@@ -41,5 +41,15 @@ Occasional weekend session when timing and energy align.
 
 ---
 
-🔔 Follow **StudioRich** on Twitch to get notified when sessions go live.  
+---
+
+<div style="max-width: 960px; margin: 3rem auto; text-align: center;">
+  <img
+    src="/assets/flyers/one-infinite-loop.webp"
+    alt="One Infinite Loop — StudioRich After Hours"
+    style="width: 100%; border-radius: 12px;"
+  />
+</div>
+
+🔔 Follow **StudioRich** on <a id="twitch-icon" href="https://www.twitch.tv/studiorich">Twitch</an> to get notified when sessions go live.  
 Weekend streams may appear or disappear — the loop remains.
