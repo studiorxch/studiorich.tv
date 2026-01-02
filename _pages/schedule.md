@@ -51,5 +51,5 @@ Occasional weekend session when timing and energy align.
   />
 </div>
 
-🔔 Follow **StudioRich** on <a id="twitch-icon" href="https://www.twitch.tv/studiorich">Twitch</an> to get notified when sessions go live.  
+🔔 Follow **StudioRich** on <a id="twitch-icon" href="https://www.twitch.tv/studiorich">Twitch</a> to get notified when sessions go live.  
 Weekend streams may appear or disappear — the loop remains.
