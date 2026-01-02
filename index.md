@@ -42,7 +42,7 @@ permalink: /
 
   <div id="info-layer">
     <div id="nowplaying-label">Now Playing</div>
-    <div id="track-title">“Live Lo-Fi broadcasts • Twitch & YouTube”</div>
+    <div id="track-title">“Live After Hours · One Infinite Loop • Twitch & YouTube”</div>
   </div>
 
 </div>

@@ -6,28 +6,40 @@ permalink: /schedule/
 
 # 🎧 StudioRich — Live Schedule
 
-**Built slowly. Broadcast quietly.**
+**After hours. Built to repeat.**
 
-## 📅 This Week
+StudioRich streams are longform listening sessions designed around continuity, repetition, and atmosphere.  
+Minimal talking. No rush. The loop holds.
 
-**Friday**  
-🕚 11:30 PM EST  
-⏱ 45 minutes  
-🎶 Late-Night Lo-Fi Radio
+🎧 **One Infinite Loop ∞**
 
-**Sunday**  
-🕚 11:30 PM EST  
-⏱ 30 minutes  
-🎧 Lo-Fi for Night Owls
+---
 
-**Tuesday**  
-🕦 11:45 PM EST  
-⏱ 30 minutes  
-🌙 Chill Lo-Fi Session
+## 📅 Weekly Schedule (ET)
 
-**Thursday**  
-🕚 11:30 PM EST  
-⏱ 45 minutes  
-🌌 Ambient Lo-Fi Soundscape
+### **Tuesday**
 
-🔔 Follow StudioRich to get notified when we go live.
+🕖 **7:00 – 9:00 PM**  
+**StudioRich After Hours — One Infinite Loop (Lo-Fi NYC)**  
+Focused after-hours session. Calm, immersive, and unbroken.
+
+---
+
+### **Thursday**
+
+🕖 **7:00 – 9:00 PM**  
+**StudioRich After Hours — One Infinite Loop (Lo-Fi NYC)**  
+A continuation, not a variation. Same container, evolving atmosphere.
+
+---
+
+### **Saturday (Pop-Up)**
+
+🕖 **9:00 – 11:00 PM**  
+**StudioRich Pop-Up — Weekend City Loop**  
+Occasional weekend session when timing and energy align.
+
+---
+
+🔔 Follow **StudioRich** on Twitch to get notified when sessions go live.  
+Weekend streams may appear or disappear — the loop remains.
