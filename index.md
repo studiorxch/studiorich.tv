@@ -20,8 +20,8 @@ permalink: /
        alt="StudioRich stamp" />
 
 <img class="type-slide"
-       src="{{ '/assets/type/1130-pm-est.svg' | relative_url }}"
-       alt="11:30 PM EST" />
+     src="{{ '/assets/type/one-infinite-loop.svg' | relative_url }}"
+     alt="One Infinite Loop" />
 
 <img class="type-slide"
        src="{{ '/assets/type/built-slowly.svg' | relative_url }}"
