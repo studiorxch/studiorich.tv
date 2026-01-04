@@ -6,7 +6,6 @@ permalink: /links-everywhere/
 image: /assets/img/hero/scratch-graffiti-black-hero.webp
 ---
 
-
   <section class="link-hub">
 <h2>Connect with StudioRich</h2>
 
@@ -39,7 +38,7 @@ image: /assets/img/hero/scratch-graffiti-black-hero.webp
     <li><a href="https://www.tumblr.com/studiorich" target="_blank"><img src="/assets/img/logos/tumblr.svg" alt="Twitch"><span>Tumblr</span></a></li>
 
   <li><a href="https://www.twitch.tv/studiorich" target="_blank"><img src="/assets/img/logos/twitch.svg" alt="Twitch"><span>Twitch</span></a></li>
-  <li><a href="https://www.youtube.com/@Studio-Rich" target="_blank"><img src="/assets/img/logos/youtube.svg" alt="YouTube"><span>YouTube</span></a></li>
+  <li><a href="https://www.youtube.com/@studiorxch" target="_blank"><img src="/assets/img/logos/youtube.svg" alt="YouTube"><span>YouTube</span></a></li>
 </ul>
 
 <h3><img src="/assets/ui/sparkles.svg" alt="Sparkles icon" class="icon-sm">  Creator & Network Hubs</h3>
@@ -69,4 +68,3 @@ image: /assets/img/hero/scratch-graffiti-black-hero.webp
 <img src="/assets/ui/headphones.svg" alt="Headphones icon" class="icon-sm"> Featured platforms → <a href="/links">studiorich.shop/links</a>
 
   </section>
-

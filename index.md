@@ -49,7 +49,7 @@ permalink: /
 
 <div id="live-icons">
   <a id="twitch-icon" href="https://www.twitch.tv/studiorich"><img src="/assets/img/logos/twitch.svg"></a>
-  <a id="yt-icon" href="https://www.youtube.com/@Studio-Rich?sub_confirmation=1">
+  <a id="yt-icon" href="https://www.youtube.com/@studiorxch?sub_confirmation=1">
   <img src="/assets/img/logos/youtube.svg" alt="Subscribe on YouTube">
 </a>
 
