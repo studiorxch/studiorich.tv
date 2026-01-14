@@ -1,13 +1,13 @@
 ---
 ---
 
-@use "tokens/theme" as *;
-@use "base";
-@use "core";
-@use "nav";
-@use "sidebar";
-@use "footer";
-@use "library";
+@import "tokens/theme";
+@import "base";
+@import "core";
+@import "nav";
+@import "sidebar";
+@import "footer";
+@import "library";
 
 /* Caption Style */
 .caption {
