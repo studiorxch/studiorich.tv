@@ -1,0 +1,40 @@
+.filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 1rem;
+
+  button {
+    padding: 0.3rem 0.7rem;
+    font-size: 0.75rem;
+    border-radius: 999px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background: #fff;
+    cursor: pointer;
+  }
+}
+
+.track-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 1rem;
+}
+
+.track-card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.track-cover {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  display: block;
+}
+
+.track-title {
+  font-size: 0.8rem;
+  margin-top: 0.4rem;
+  text-align: center;
+}
