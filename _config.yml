@@ -1,8 +1,9 @@
 title: StudioRxch
 description: "Lo-fi music, ambient streams, and creative studio culture."
-url: "https://studiorxch.com"
+url: "https://studiorich.tv"
 
 baseurl: ""
+google_analytics: G-0JWS795937
 
 collections:
   pages:
