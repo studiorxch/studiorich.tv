@@ -25,7 +25,9 @@
 .logo-btn img {
   width: 100%;
   height: 100%;
-  transition: transform 0.25s ease, opacity 0.25s ease;
+  transition:
+    transform 0.25s ease,
+    opacity 0.25s ease;
 }
 
 .logo-btn:hover img {
@@ -64,7 +66,9 @@
   z-index: 8000;
   opacity: 0;
   pointer-events: none;
-  transition: opacity 0.2s ease, transform 0.2s ease;
+  transition:
+    opacity 0.2s ease,
+    transform 0.2s ease;
 }
 
 #drawer.open ~ .drawer-close {
@@ -163,6 +167,17 @@
   font-size: 0.7rem;
   opacity: 0.55;
   margin-top: 12px;
+}
+
+.drawer-footer a {
+  color: rgba(255, 255, 255, 0.55);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
+.drawer-footer a:hover {
+  color: rgba(255, 255, 255, 0.9);
+  text-decoration: underline;
 }
 
 /*-🔹 Social Icons-*/
