@@ -2,6 +2,9 @@
 
 source "https://rubygems.org"
 
+# Gemfile
+gem "logger"
+
 # Core
 gem "jekyll", "~> 4.3"
 gem "webrick", "~> 1.8"
