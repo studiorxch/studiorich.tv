@@ -8,17 +8,16 @@ redirect_from:
 
 ## StudioRich
 
-StudioRich is a live lo-fi studio built for late nights, focus, and quiet presence.
-
-We stream short, intentional sessions — no idle loops, no filler — designed to feel like a place you return to rather than content you scroll past.
-
+StudioRich is a live sound architecture studio.
+We began in lo-fi.
+We now explore spatial minimalism, glitch erosion, and field-based composition.
+Each stream is intentional — built around silence, micro-events, and texture as structure — designed to feel less like content and more like environment.
 Built slowly. Broadcast quietly.
 
 ### What We Do
 
-- Live lo-fi & ambient streams
-- Experimental soundscapes
-- Late-night sessions for focus, sleep, and creativity
-
-This is not background noise.  
+Live loop and field studies
+Experimental glitch & reductionist sessions
+Late-night transmissions for attention, not distraction
+This is not background noise.
 It’s a place to stay awhile.
