@@ -1,0 +1,65 @@
+.wide-inner {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 96px 120px 120px;
+  line-height: 1.7;
+}
+
+.wide-inner h1,
+.wide-inner h2,
+.wide-inner h3 {
+  color: #fff;
+}
+
+/* full bleed support */
+
+.full-bleed {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+}
+
+/* timeline */
+
+.timeline-frame {
+  width: 100%;
+  height: 900px;
+  border: none;
+}
+
+.timeline-wrap {
+  margin: 100px auto 120px auto;
+}
+
+.text-col {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.text-col p {
+  font-size: 1.05rem;
+  color: #c9c9c9;
+}
+
+.text-col ul {
+  margin-top: 12px;
+  line-height: 1.8;
+}
+
+.page-inner h2 {
+  max-width: 760px;
+}
+
+.page-inner p {
+  font-size: 1.05rem;
+}
+/* mobile */
+
+@media (max-width: 768px) {
+  .wide-inner {
+    padding: 72px 24px;
+  }
+
+  .timeline-frame {
+    height: 700px;
+  }
+}

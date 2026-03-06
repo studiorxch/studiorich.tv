@@ -4,10 +4,7 @@
     {% include head.html %}
     <link rel="stylesheet" href="/assets/css/page.css" />
     <link rel="stylesheet" href="/assets/css/drawer.css" />
-
-    {% if page.css == "wide" %}
     <link rel="stylesheet" href="/assets/css/wide.css" />
-    {% endif %}
   </head>
 
   <body>
@@ -20,7 +17,7 @@
     <button id="drawerClose" class="drawer-close">&times;</button>
 
     <div id="pageWrap" class="page-content">
-      <div class="page-inner">{{ content }}</div>
+      <div class="wide-inner">{{ content }}</div>
     </div>
 
     <script src="/assets/js/drawer.js"></script>
