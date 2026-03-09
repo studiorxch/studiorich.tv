@@ -37,7 +37,7 @@ loading="lazy">
 <h3>Timeline Scope</h3>
 
 <p>1928 – 2024<br>
-148 films documenting nearly a century of New York cinema.</p>
+152 films documenting nearly a century of New York cinema.</p>
 
 <p>The collection spans:</p>
 
