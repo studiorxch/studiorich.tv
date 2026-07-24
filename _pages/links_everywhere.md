@@ -11,7 +11,7 @@ image: /assets/img/hero/scratch-graffiti-black-hero.webp
 
 <!-- Global Platforms -->
 <h3><img src="/assets/ui/planet-earth.svg" alt="Planet Earth icon" class="icon-sm"> Global Platforms</h3>
-<ul class="link-list no-bullets">
+<ul class="drawer-social">
   <li><a href="https://music.amazon.co.uk/artists/B0DQR9S993/studiorich" target="_blank"><img src="/assets/img/logos/amazon-music.svg" alt="Amazon Music"><span>Amazon Music</span></a></li>
   <li><a href="https://music.apple.com/us/artist/studiorich/1785907828" target="_blank"><img src="/assets/img/logos/apple-music.svg" alt="Apple Music"><span>Apple Music</span></a></li>
   <li><a href="https://audiomack.com/studiorich" target="_blank"><img src="/assets/img/logos/audiomack.svg" alt="Audiomack"><span>Audiomack</span></a></li>

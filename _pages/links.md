@@ -12,7 +12,7 @@ redirect_from:
 
   <section class="link-hub">
     <h2>Connect with StudioRich</h2>
-<ul class="link-list no-bullets">
+<ul class="drawer-social">
       <li>
         <a href="https://www.youtube.com/@studiorxch" target="_blank">
           <img src="/assets/img/logos/youtube.svg" alt="YouTube">
