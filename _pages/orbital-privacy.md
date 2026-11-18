@@ -62,6 +62,6 @@ This policy may be updated as Orbital evolves. Any updates will be reflected on 
 
 **StudioRich**
 
-Website: [https://studiorich.tv](https://studiorich.tv/)
+Website: [https://www.studiorich.tv](https://www.studiorich.tv/)
 
 For questions regarding this privacy policy, please contact StudioRich through the website above.
